@@ -4,65 +4,35 @@ title:  "How to Prevent Reentrancy Attacks in Solidity"
 date:   2023-01-15 17:00:00 +1300
 categories: solidity
 ---
+A reentrancy attack is where an attacker is able to exploit a smart contract by called a function and then calling that same function again before the first call to that function has finished.
 
-Example code avaialble here: [github.com/rohinnz/Solidity-Reentrancy-Attack-Example](https://github.com/rohinnz/Solidity-Reentrancy-Attack-Example)
+This is attack is performed by the attacker deployig their own smart contract with a fallback() function.
 
-**Contracts**
+In the following example, the fallback() function on the Attack contract is called whenever eth is sent to the the contract. This call happens before the Bank contract can update the sender's balance.
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.17;
 
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-
-abstract contract ABank {
+// Vulnerable contract - reentrancy attack is possible
+contract Bank1 {
     mapping(address => uint256) internal _balances;
 
     function deposit() external payable {
         _balances[msg.sender] += msg.value;
     }
 
-    function withdraw() external virtual;
-}
-
-// Vulnerable contract - reentrancy attack is possible
-contract Bank1 is ABank {
     function withdraw() external override {
         uint256 balance = _balances[msg.sender];
-        
-        (bool sent, ) = msg.sender.call{value: balance}("");
-        require(sent, "withdraw failed");
-        
-        _balances[msg.sender] = 0;
-    }
-}
-
-// Contract using Reentrancy Guard
-contract Bank2 is ABank, ReentrancyGuard {
-    function withdraw() external override nonReentrant {
-        uint256 balance = _balances[msg.sender];
-        
-        (bool sent, ) = msg.sender.call{value: balance}("");
-        require(sent, "withdraw failed");
-        
-        _balances[msg.sender] = 0;
-    }
-}
-
-// Contract using CEI (Checks, Effects, Interactions) pattern
-// Attacker's balance is updated before eth is sent
-// Uses less gas than Reentrancy Guard
-contract Bank3 is ABank, ReentrancyGuard {
-    function withdraw() external override nonReentrant {
-        uint256 balance = _balances[msg.sender];
-        _balances[msg.sender] = 0;
 
         (bool sent, ) = msg.sender.call{value: balance}("");
         require(sent, "withdraw failed");
+
+        _balances[msg.sender] = 0;
     }
 }
 
 contract Attack {
-    ABank private bank;
+    Bank private bank;
 
     constructor(address bankAddress) {
         bank = ABank(bankAddress);
@@ -81,7 +51,95 @@ contract Attack {
 }
 ```
 
+There are two ways to prevent a reentrancy attack: 
+1. Reentrancy Guard
+2. CEI (Checks, Effects, Interactions) Pattern
+
+**Reentrancy Guard**
+
+With the reentrancy guard, reentrant calls to the function are prevented when a flag is set. This flag is set at the start of the function and removed at the end.
+
+Example reentrancy guard modifier:
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+contract ReentrancyGuard {
+    bool internal _locked;
+
+    modifier nonReentrant() {
+        require(!_locked, "Reentrancy forbidden");
+        _locked = true;
+        _;
+        _locked = false;
+    }
+}
+```
+
+If you need to use a Reentrancy Guard, it is best to use the [Open Zeppelin Reentrancy Guard](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol) because it is cheaper on gas.
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+// Contract using Reentrancy Guard
+contract Bank2 is ReentrancyGuard {
+    mapping(address => uint256) internal _balances;
+
+    function deposit() external payable {
+        _balances[msg.sender] += msg.value;
+    }
+
+    function withdraw() external override nonReentrant {
+        uint256 balance = _balances[msg.sender];
+
+        (bool sent, ) = msg.sender.call{value: balance}("");
+        require(sent, "withdraw failed");
+
+        _balances[msg.sender] = 0;
+    }
+}
+```
+
+**CEI Pattern**
+
+With the CEI (Checks, Effects, Interactions) pattern, we only send the eth at the end of the function after we've done all
+the updates. This appraoch uses less gas than the Reentrancy Guard.
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.9;
+
+// Contract using CEI (Checks, Effects, Interactions) pattern
+// Attackers balance updated before eth is sent
+contract Bank3 is ABank, ReentrancyGuard {
+    mapping(address => uint256) internal _balances;
+
+    function deposit() external payable {
+      _balances[msg.sender] += msg.value;
+    }
+
+    function withdraw() external override nonReentrant {
+        uint256 balance = _balances[msg.sender];
+        _balances[msg.sender] = 0;
+
+        (bool sent, ) = msg.sender.call{value: balance}("");
+        require(sent, "withdraw failed");
+    }
+}
+
+```
+
+
 **Contract Tests**
+
+We can test these contracts using [Hardhat](https://hardhat.org/). The full source code for these examples is avaialble here:<br />[github.com/rohinnz/Solidity-Reentrancy-Attack-Example](https://github.com/rohinnz/Solidity-Reentrancy-Attack-Example)
+
+In the following tests, the attacker is able to steal all the ETH from Bank1 by just depositing 0.01 ETH and then calling withdraw() multiple times.
+
+For Bank2 and Bank3, the attacker is unable to steal any ETH.
 ```typescript
 import { expect } from "chai";
 import { ethers } from "hardhat";
@@ -147,6 +205,4 @@ describe("Banks", function () {
     expect(await bank.provider.getBalance(bank.address)).to.equal(ONE_ETH);
   });
 });
-
 ```
-

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automatic Tool Distribution for Maya"
-date:   2021-09-04 17:00:00 +1300
+date:   2023-01-10 17:00:00 +1300
 categories: techart
 ---
 
@@ -9,9 +9,9 @@ While I was working for [PikPok](https://pikpok.com/) as a Technical Artist, I b
 
 I put a custom userSetup.py file in the artist's Maya preferences folder.
 
-Then each time Maya was launched, this script would download and run a startup module which will then download a zip archive containing the latest tools.
+Then each time Maya was launched, this script would download and run a startup module which would then download a zip archive containing the latest tools.
 
-On our CI server, I wrote a script to create a new zip archive with every update to the main git branch.
+I also wrote a script on our CI server so the zip archieve would be rebuilt every time an update was made to the main git branch.
 
 ![Tech Art Tools Update Diagram](/assets/NZGDC-techart-tools-update.jpg)
 
