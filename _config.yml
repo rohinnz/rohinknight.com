@@ -22,9 +22,10 @@ title: Rohin Knight
 description: >- # this means to ignore newlines until "baseurl:"
   Rohin is a programmer with a passion for Web3 Gaming.
   His current experience is in Blockchain Programming,
-  Unity Game Programming and Technical Art.
+  Unity Game Development and Technical Art.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://rohinknight.com" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
 
 github_username: rohinnz
 linkedin_username: rohinknight

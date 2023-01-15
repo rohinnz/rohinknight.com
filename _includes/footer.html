@@ -8,13 +8,14 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="social-media-list">
-          {%- if site.github_username -%}<li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a></li>{%- endif -%}
           {%- if site.linkedin_username -%}<li><a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">{{ site.linkedin_username| escape }}</span></a></li>{%- endif -%}
-          <li><a href="https://www.artstation.com/rohin">https://www.artstation.com/rohin</a></li>
+          {%- if site.github_username -%}<li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a></li>{%- endif -%}
+          <li><a href="https://www.artstation.com/rohin">artstation.com/rohin</a></li>
+          <li><a href="https://mailhide.io/e/EliNFYdi" onclick="popup=window.open('https://mailhide.io/e/EliNFYdi','mailhidepopup','width=580,height=635'); return false;">r......@gmail.com</a></li>
         </ul>
       </div>
 
-      <div class="footer-col">
+      <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
       </div>
     </div>
