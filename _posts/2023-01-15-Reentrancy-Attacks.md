@@ -105,7 +105,7 @@ contract Bank2 is ReentrancyGuard {
 
 **CEI Pattern**
 
-With the CEI (Checks, Effects, Interactions) pattern, we only send the eth at the end of the function after we've done all
+With the CEI (Checks, Effects, Interactions) pattern, we only send the ETH at the end of the function after we've done all
 the updates. This appraoch uses less gas than the Reentrancy Guard.
 
 ```solidity
@@ -113,7 +113,7 @@ the updates. This appraoch uses less gas than the Reentrancy Guard.
 pragma solidity ^0.8.9;
 
 // Contract using CEI (Checks, Effects, Interactions) pattern
-// Attackers balance updated before eth is sent
+// Attackers balance updated before ETH is sent
 contract Bank3 is ABank, ReentrancyGuard {
     mapping(address => uint256) internal _balances;
 
