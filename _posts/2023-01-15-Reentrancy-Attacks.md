@@ -21,7 +21,7 @@ contract Bank1 {
         _balances[msg.sender] += msg.value;
     }
 
-    function withdraw() external override {
+    function withdraw() external {
         uint256 balance = _balances[msg.sender];
 
         (bool sent, ) = msg.sender.call{value: balance}("");
@@ -92,7 +92,7 @@ contract Bank2 is ReentrancyGuard {
         _balances[msg.sender] += msg.value;
     }
 
-    function withdraw() external override nonReentrant {
+    function withdraw() external nonReentrant {
         uint256 balance = _balances[msg.sender];
 
         (bool sent, ) = msg.sender.call{value: balance}("");
@@ -110,18 +110,18 @@ the updates. This appraoch uses less gas than the Reentrancy Guard.
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.17;
 
 // Contract using CEI (Checks, Effects, Interactions) pattern
 // Attackers balance updated before ETH is sent
-contract Bank3 is ABank, ReentrancyGuard {
+contract Bank3 {
     mapping(address => uint256) internal _balances;
 
     function deposit() external payable {
       _balances[msg.sender] += msg.value;
     }
 
-    function withdraw() external override nonReentrant {
+    function withdraw() external {
         uint256 balance = _balances[msg.sender];
         _balances[msg.sender] = 0;
 
