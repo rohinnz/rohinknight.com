@@ -31,9 +31,8 @@ destination_path = os.path.join(os.environ['MAYA_APP_DIR'],\
 if os.path.isfile(source_path):
   shutil.copy(source_path, destination_path)
 
-# Import and run startup module which will download lates
-# tools .zip and add it to the Maya path and update 
-# custom shelves
+# Import and run startup module which will download latest .zip
+# and add it to the Maya path. It will also update custom shelves.
 import startup
 startup.run()
 ```

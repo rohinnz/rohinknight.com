@@ -6,9 +6,9 @@ categories: solidity
 ---
 A reentrancy attack is where an attacker is able to exploit a smart contract by called a function and then calling that same function again before the first call to that function has finished.
 
-This is attack is performed by the attacker deployig their own smart contract with a fallback() function.
+This is attack is performed by the attacker deploying their own smart contract with a fallback() function.
 
-In the following example, the fallback() function on the Attack contract is called whenever eth is sent to the the contract. This call happens before the Bank contract can update the sender's balance.
+In the following example, the fallback() function on the Attack contract is called whenever ETH is sent to the contract. This call happens before the Bank contract can update the sender's balance.
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
@@ -84,7 +84,7 @@ pragma solidity ^0.8.17;
 
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
-// Contract using Reentrancy Guard
+// Contract using Open Zeppelin Reentrancy Guard
 contract Bank2 is ReentrancyGuard {
     mapping(address => uint256) internal _balances;
 
@@ -113,7 +113,7 @@ the updates. This appraoch uses less gas than the Reentrancy Guard.
 pragma solidity ^0.8.17;
 
 // Contract using CEI (Checks, Effects, Interactions) pattern
-// Attackers balance updated before ETH is sent
+// Sender's balance updated before ETH is sent
 contract Bank3 {
     mapping(address => uint256) internal _balances;
 
