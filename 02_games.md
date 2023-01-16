@@ -7,6 +7,5 @@ permalink: /games
 ---
 
 ### Block Miner
-Block Miner is a Web3 game where users get to mint their own puzzles as NFTs.
 
-Check it out: [Block Miner]({% link blockminer.md %})
+[Block Miner]({% link blockminer.md %}) is a Web3 game where users get to mint their own puzzles as NFTs.

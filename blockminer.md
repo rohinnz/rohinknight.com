@@ -20,6 +20,10 @@ More Info coming soon.
 
 ### Prototype
 
+Coming soon.
+
+<!--
 WARNING: Current prototype is very rough. The main goal of this prototype is testing Smart Contracts on the Goerli testnet.
 
 [Play Prototype]({{site.baseurl}}/games/blockminer/play)
+-->
