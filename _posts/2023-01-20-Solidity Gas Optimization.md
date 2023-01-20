@@ -139,10 +139,10 @@ This will save an additional 1443 gas.
       arraySlot := array.slot
     }
 
-    // Because storage array is dynamic, Solidity the elements
+    // Solidity stores the elements for dynamic storage arrays
     // at the keccak256 location of the array's slot.
-    // This allows for items to later be added to the array
-    // without colliding with other storage data.
+    // This is so the array can be expanded without colliding
+    // with other storage data.
     bytes32 arrayLocation = keccak256(abi.encode(arraySlot));
 
     for (uint256 i = 0; i < arraySize; ) {
