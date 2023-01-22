@@ -5,9 +5,7 @@ date: 2023-01-20 21:00:00 +1300
 categories: solidity
 ---
 
-In this example we are going to optimize a solidity function that calculates the total of all values in the array.
-
-The execution cost is currently 55,541 gas.
+In this example we are going to optimize a solidity function that calculates the total of all values in the array. The full source code is available [here](https://gist.github.com/rohinnz/82d5d162829e2707891ce04742ae33d8).
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -32,7 +30,12 @@ contract Totals {
   }
 }
 ```
-## Fix #1 - Write to storage once
+
+If we execute the *updateTotal* function in [Remix](https://remix.ethereum.org/) we will find it has an execution cost of 55,541 gas.
+
+There are five optimizations we can make to get the execution cost down to 47,718 gas.
+
+## Optimization #1 - Write to storage once
 
 The storage variable *total* is being updated in every iteration of the for loop.
 
@@ -53,7 +56,7 @@ This saves 2207 gas.
   }
 
 ```
-## Fix #2 - Cache array length
+## Optimization #2 - Cache array length
 
 It is cheaper to read from memory than storage. We should store the array length in a variable and read that in each iteration of the for loop instead.
 
@@ -74,8 +77,10 @@ This saves an extra 1110 gas.
   
 ```
 
-## Fix #3 - Use unchecked for addition
-If we know that addition to *newTotal* and *i* will not overflow, we can remove the overflow checks by wrapping them in an unchecked block.
+## Optimization #3 - Use unchecked for addition
+Since solidity 0.8.0, the compiler automatically adds checks for interger overflow and underflow and throws an exception if they occur.
+
+Because we are confident *newTotal* and *i* will not overflow, we can remove these checks by wrapping them in an unchecked block.
 
 This saves an extra 2954 gas.
 
@@ -97,9 +102,9 @@ This saves an extra 2954 gas.
 
 ```
 
-## Fix #4 - Use pre-increment for i
+## Optimization #4 - Use pre-increment for i
 
-Pre-increment is cheaper than post-increment
+Pre-increment is cheaper than post-increment.
 
 This will save an extra 117 gas.
 
@@ -121,16 +126,15 @@ This will save an extra 117 gas.
 
 ```
 
-## Fix 5 - Remove array bounds checking
+## Optimization #5 - Remove array bounds checking
 
-The last fix we can do is remove array bounds checking.
-To do this we need to access the array elements using [Yul](https://docs.soliditylang.org/en/v0.8.17/yul.html).
+The last fix we can do is remove array bounds checking. To do this we need to access the array elements using [Yul](https://docs.soliditylang.org/en/v0.8.17/yul.html).
 
 This will save an additional 1443 gas.
 
 ```solidity
   // Remove array bounds check
-  function updateTotalV7() external { // gas: 47,710 
+  function updateTotalV6() external { // gas: 47,710 
     uint256 arraySize = array.length;
     uint256 newTotal = 0;
     uint256 arraySlot;
@@ -160,13 +164,15 @@ This will save an additional 1443 gas.
 }
 ```
 
-## Why not remove the explicit zero initializations?
+## Q&A
+### Why not remove the explicit zero initializations?
 
 I have read some suggestions that removing the explicit zero initialization for memory variables can also save gas because memory variables will always be initialized to zero by default.
 
 However, when I tested removing the zero assignemnts for *newTotal* and *i*, it appears to actually increased the gas consumtion by 8.
 
 ```solidity
+  // Removed zero assignments
   function updateTotalV7() external { // gas: 47,718 
     uint256 arraySize = array.length;
     uint256 newTotal;
