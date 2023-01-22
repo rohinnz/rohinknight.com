@@ -38,6 +38,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -60,3 +61,21 @@ exclude:
   - vendor/ruby/
   - CNAME
   - project.code-workspace
+
+# Sitemap excludes
+defaults:
+  -
+    scope:
+      path:           "games/blockminer/*"
+    values:
+      sitemap:         false
+  -
+    scope:
+      path:           "assets/**"
+    values:
+      sitemap:         false
+  -
+    scope:
+      path:           "04_resume.md"
+    values:
+      sitemap:         false
