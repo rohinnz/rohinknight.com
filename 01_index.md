@@ -18,7 +18,7 @@ I never shy away from a new challenge and love helping people solve complex prob
 
 My current experience is in Blockchain Programming, Unity Game Development and Technical Art.
 
-I am very passionate about Web3 gaming and am currently working on my own Web3 game, [Block Miner]({% link blockminer.md %}).
+I am passionate about Web3 gaming and am currently working on my own Web3 game, [Block Miner]({% link blockminer.md %}).
 
 ## Other Interests
 
