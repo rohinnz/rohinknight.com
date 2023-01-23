@@ -29,7 +29,7 @@ Below is a list of some of the other games I've worked on during my career.
 
 **Game Jams**
 
-I've taken part in many game jams over the years. They are a fantastic learning experience and provide a networking opportunity.
+I've taken part in many game jams over the years. They are a fantastic learning experience and provide a great networking opportunity.
 * [Welcome to the Chain Reaction](https://jamesgamesbro.itch.io/welcome-to-the-chain-reaction) - Plus did some earlier work on [Last Message](https://store.steampowered.com/app/1141030/Last_Message/)
 * [Memories](https://globalgamejam.org/2019/games/memories-2) (Unreal engine)
 * [Sweet-Tooth](https://olivieryc.itch.io/sweet-tooth)

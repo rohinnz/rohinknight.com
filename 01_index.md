@@ -14,11 +14,15 @@ During my career, I've developed games, mobile apps and websites.
 
 I've worked with some fantastic people in startups to large corporate companies.
 
-I never shy away from a new challenge and love helping people solve complex problems.
+I love tackling new challenges and helping people solve complex problems.
 
 My current experience is in Blockchain Programming, Unity Game Development and Technical Art.
 
 I am passionate about Web3 gaming and am currently working on my own Web3 game, [Block Miner]({% link blockminer.md %}).
+
+I have also created two posts about Smart Contract security and optimization:
+* [How to Prevent Reentrancy Attacks in Solidity]({% link _posts/2023-01-15-Reentrancy-Attacks.md %})
+* [Optimizing Smart Contract Gas Costs]({% link _posts/2023-01-20-Solidity-Gas-Optimization.md %})
 
 ## Other Interests
 
