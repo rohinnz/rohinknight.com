@@ -10,15 +10,19 @@ Hi, I'm Rohin Knight.
 
 I'm a programmer with over 15 years of commercial experience and over eight years of experience in the games industry.
 
-During my career, I've developed websites, apps and games. My current experience is in Blockchain Programming, Unity Game Development and Technical Art.
+During my career, I've developed games, mobile apps and websites.
 
-I have a passion for Web3 gaming. Coming from the more traditional free-to-play industry, I absolutely love the idea of giving users complete ownership of their in-game items as NFTs.
+I've worked with some fantastic people in startups to large corporate companies.
 
-I am currently working on my own Web3 game, [Block Miner]({% link blockminer.md %}).
+I never shy away from a new challenge and love helping people solve complex problems.
+
+My current experience is in Blockchain Programming, Unity Game Development and Technical Art.
+
+I am very passionate about Web3 gaming and am currently working on my own Web3 game, [Block Miner]({% link blockminer.md %}).
 
 ## Other Interests
 
-Outside of coding, my other interests are studying Mandarin, travel, hiking and snowboarding. Favourite ski field is [Cardrona](https://www.cardrona.com/).
+Outside of coding, my other interests are studying Mandarin, travel, hiking and snowboarding. My favourite ski field is [Cardrona](https://www.cardrona.com/).
 <br />
 
 ![Rohin Knight at Cardrona Ski Field](/assets/rohin-snowboard.jpg)
