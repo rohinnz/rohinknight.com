@@ -6,7 +6,9 @@ categories: cpp
 ---
 I was once given a task to refactor some legacy C++ code into modern C++11.
 
-The code can be downloaded [here]({% link assets/CppRefactoringExample.zip %}). It is a simple console app for storing and retrieving messages in memory.
+This example code can be downloaded [here]({% link assets/CppRefactoringExample.zip %}). It is a simple console app for storing and retrieving messages in memory.
+
+I'm also planning to convert [Kana Invaders](https://sourceforge.net/projects/kanainvaders) (one of my old games) to modern C++ when I find time. The code for that is available [here]({% link assets/kanainvaders-0.3beta4-src.zip %}).
 
 ## Original Code
 
