@@ -5,7 +5,7 @@ date: 2023-01-20 21:00:00 +1300
 categories: solidity
 ---
 
-In this example we are going to optimize a solidity function that calculates the total of all values in the array. The full source code is available [here](https://gist.github.com/rohinnz/82d5d162829e2707891ce04742ae33d8).
+In this example we are going to optimize a solidity function that calculates the total of all values in the array.
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -154,7 +154,7 @@ This will save an additional 1632 gas.
 ## Q&A
 ### Why not remove the explicit zero initializations?
 
-I read somewhere that removing the explicit zero initialization for memory variables can also save gas because memory variables will always be zero by default.
+I think I read somewhere that removing the explicit zero initialization for memory variables can also save gas because memory variables will always be zero by default.
 
 This is not correct, but may appear to be if using the wrong test. E.g.
 ```solidity
