@@ -177,7 +177,7 @@ The above test is flawed because it does not take into account the gas cost to l
 The Solidity compiler creates a hash of each function using the keccak256 and then stores the first four bytes of that hash in the assembly as the function selector. The underlying assembly for looking up a function is basically checking if a function selector matches the hash. If it doesn't then it moves to the next function selector and compares that.
 
 If we instead create 2 contracts with 1 function each then we can properly test the explicit zero initialization.
-The following test produces the same gas cost for each function. So this really comes down to personal preference.
+The following test produces the same gas cost for each function.
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.17;
@@ -190,7 +190,8 @@ contract AssignZeroTestV1 { // gas: 21,186
 
 contract AssignZeroTestV2 { // gas: 21,186 
   function assignZeroV2() external {
-      uint256 value = 0;
+      uint256 value;
   }
 }
 ```
+Also if we compare the function assembly code we will see they are identical, except for different hashes for the function selectors.
