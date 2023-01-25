@@ -44,7 +44,7 @@ Writing to memory is cheaper than writing to storage, so we should calculate the
 This saves 2207 gas.
 
 ```solidity
-  function updateTotalV2() external { // gas: 53,334
+  function updateTotal() external { // gas: 53,334
     uint256 newTotal = 0;
 
     for (uint256 i = 0; i < array.length; i++) {
@@ -63,7 +63,7 @@ It is cheaper to read from memory than storage. We should store the array length
 This saves an extra 1110 gas.
 
 ```solidity
-  function updateTotalV3() external { // gas: 52,224 
+  function updateTotal() external { // gas: 52,224 
     uint256 arrayLength = array.length;
     uint256 newTotal = 0;
 
@@ -85,7 +85,7 @@ Because we are confident *newTotal* and *i* will not overflow, we can remove the
 This saves an extra 2954 gas.
 
 ```solidity
-  function updateTotalV4() external { // gas: 49,270 
+  function updateTotal() external { // gas: 49,270 
     uint256 arraySize = array.length;
     uint256 newTotal = 0;
 
@@ -109,7 +109,7 @@ Pre-increment is cheaper than post-increment.
 This will save an extra 117 gas.
 
 ```solidity
-  function updateTotalV5() external { // gas: 49,153 
+  function updateTotal() external { // gas: 49,153 
     uint256 arraySize = array.length;
     uint256 newTotal = 0;
 
@@ -134,7 +134,7 @@ This will save an additional 1443 gas.
 
 ```solidity
   // Remove array bounds check
-  function updateTotalV6() external { // gas: 47,710 
+  function updateTotal() external { // gas: 47,710 
     uint256 arraySize = array.length;
     uint256 newTotal = 0;
     uint256 arraySlot;
@@ -169,31 +169,40 @@ This will save an additional 1443 gas.
 
 I have read some suggestions that removing the explicit zero initialization for memory variables can also save gas because memory variables will always be initialized to zero by default.
 
-However, when I tested removing the zero assignemnts for *newTotal* and *i*, it appears to actually increased the gas consumtion by 8.
-
+This is not correct, but may appear to be if using the wrong test. E.g.
 ```solidity
-  // Removed zero assignments
-  function updateTotalV7() external { // gas: 47,718 
-    uint256 arraySize = array.length;
-    uint256 newTotal;
-    uint256 arraySlot;
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.17;
 
-    assembly {
-      arraySlot := array.slot
-    }
-
-    bytes32 location = keccak256(abi.encode(arraySlot));
-
-    for (uint256 i; i < arraySize; ) {
-      assembly {
-        newTotal := add(newTotal, sload(add(location, i)))
-      }
-      unchecked {
-        ++i;
-      }
-    }
-
-    total = newTotal;
-    require(total == 55);
+contract AssignZeroTest {
+  function assignZeroV1() external { // gas: 21,186
+      uint256 value;
   }
+
+  function assignZeroV2() external { // gas: 21,208 
+      uint256 value = 0;
+  }
+}
+```
+
+The above test is flawed because it does not take into account the gas cost to lookup a function. If you swap the function names you'll then find the gas costs are also swapped.
+
+The Solidity compiler creates a hash of each function using the keccak256 and then stores the first four bytes of that hash in the assembly as the function selector. The underlying assembly for looking up a function is basically checking if a function selector matches the hash and if not then moving to comparing the next.
+
+If we now write this test the correct way, both functions will return the same gas cost:
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.17;
+
+contract AssignZeroTestV1 { // gas: 21,186 
+  function assignZeroV1() external {
+      uint256 value = 0;
+  }
+}
+
+contract AssignZeroTestV2 { // gas: 21,186 
+  function assignZeroV2() external {
+      uint256 value = 0;
+  }
+}
 ```
