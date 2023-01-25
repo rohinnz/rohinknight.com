@@ -124,3 +124,30 @@ Source: [http://www.sysprobs.com/increase-mac-os-virtual-machine-screen-resoluti
 Go to this link and follow the instructions: [http://forums.virtualbox.org/viewtopic.php?f=30&t=33358](http://forums.virtualbox.org/viewtopic.php?f=30&t=33358)
 
 The sound quality might not be perfect when you get it working, but it should be sufficient for development purposes.
+
+
+### Fixing Audio and Cam Issue
+After I had installed Ubuntu 10.10 on my Asus A52J laptop, I had two issues
+1. The sound wouldn’t play through headphones when I plugged them in.
+2. May webcam was upside down in Skype.
+
+I found the answers in these two forum posts:
+* [http://ubuntuforums.org/showthread.php?t=1612004](http://ubuntuforums.org/showthread.php?t=1612004)
+* [http://ubuntuforums.org/showthread.php?t=1460790&page=12](http://ubuntuforums.org/showthread.php?t=1460790&page=12)
+
+**Headphones problem**
+
+1. Create file /etc/modprobe.d/sound.conf, and enter the following:
+```console
+options snd-hda-intel model=ideapad
+```
+
+2. Reboot (or reload snd-hda-intel)
+
+**Skype cam problem**
+
+To fix the cam in Skype, create a bash script in your home directory
+```console
+#!/bin/bash
+export LIBV4LCONTROL_FLAGS=3 && LD_PRELOAD=/usr/lib/libv4l/v4l1compat.so skype
+```
