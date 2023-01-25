@@ -24,9 +24,13 @@ tolua++ -o tolua_Player.cpp -H tolua_Player.h -n Player Player.pkg
 The pkg file tells toLua++ what functions to make available to LUA.
 
 When I run the exe I get the following output:
-
-![example exe output](/assets/LuaToCppExample.png)
-
+```console
+LUA: Player's health is 4
+C++: Player's health is 4 - Now setting it to 6
+C++: Player's health is now 6
+LUA: Player's health is 6 - Now setting it to 11
+LUA: Player's health is now 11
+```
 
 ### Code
 ```c++
