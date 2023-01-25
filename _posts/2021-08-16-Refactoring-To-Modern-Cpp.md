@@ -1,17 +1,18 @@
 ---
 layout: post
 title:  "Refactoring legacy C++ into modern C++11"
-date:   2023-01-24 17:00:00 +1300
+date:   2021-08-16 17:00:00 +1300
 categories: cpp
 ---
 I was once given a task to refactor some legacy C++ code into modern C++11.
 
 This example code can be downloaded [here]({% link assets/CppRefactoringExample.zip %}). It is a simple console app for storing and retrieving messages in memory.
 
-I'm also planning to convert [Kana Invaders](https://sourceforge.net/projects/kanainvaders) (one of my old games) to modern C++ when I find time. The code for that is available [here]({% link assets/kanainvaders-0.3beta4-src.zip %}).
+I'm also planning to convert [Kana Invaders](https://sourceforge.net/projects/kanainvaders) (one of my old games) to modern C++ when I find time. If you're interested in seeing what my legacy C++ looks like, you can download the code for Kana Invaders here: [here]({% link assets/kanainvaders-0.3beta4-src.zip %}).
 
 ## Original Code
 
+In the original code, almost all the code was stored in a monolithic class called MessageStore.
 ```c++
 // main.cpp
 #include "MessageStore.h"
