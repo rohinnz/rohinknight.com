@@ -8,7 +8,7 @@ I was once given a task to refactor some legacy C++ code into modern C++11.
 
 This example code can be downloaded [here]({% link assets/CppRefactoringExample.zip %}). It is a simple console app for storing and retrieving messages in memory.
 
-I'm also planning to convert my old game [Kana Invaders](https://sourceforge.net/projects/kanainvaders) to modern C++ when I find time. (If you're interested in seeing what that code currently looks like, you can download it here: [here]({% link assets/kanainvaders-0.3beta4-src.zip %})).
+I'm also planning to convert my old game [Kana Invaders](https://sourceforge.net/projects/kanainvaders) to modern C++ when I find time. (If you're interested in seeing what that code currently looks like, you can download it [here]({% link assets/kanainvaders-0.3beta4-src.zip %})).
 
 ## Original Code
 
