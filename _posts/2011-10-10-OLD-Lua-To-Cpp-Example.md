@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[OLD] Joining LUA to C++ Example"
-date:   2010-08-10 17:00:00 +1300
+title:  "[Old] Joining LUA to C++ Example"
+date:   2011-10-10 17:00:00 +1300
 categories: cpp
 ---
 **This information is from my old website and may no longer be relevant**

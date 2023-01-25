@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[OLD] Component Based Game Development"
+title:  "[Old] Component Based Game Development (Python)"
 date:   2011-01-10 17:00:00 +1300
-categories: gamedev
+categories: python
 ---
 **This post is from my old website. Some information may no longer be relevant.**
 

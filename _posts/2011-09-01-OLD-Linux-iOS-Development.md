@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[OLD] Linux iOS Development Setup"
+title:  "[Old] Linux iOS Development Setup"
 date:   2011-09-01 17:00:00 +1300
 categories: linux
 ---
