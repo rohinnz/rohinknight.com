@@ -29,4 +29,4 @@ I have also written two posts about Smart Contract security and optimization:
 Outside of coding, my other interests are studying Mandarin, travel, hiking and snowboarding. My favourite ski field is [Cardrona](https://www.cardrona.com/).
 <br />
 
-![Rohin Knight at Cardrona Ski Field](/assets/rohin-snowboard.jpg)
+{% include lightbox.html src="rohin-snowboard.jpg" title="Rohin Knight at Cardrona Ski Field" %}

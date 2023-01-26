@@ -13,7 +13,8 @@ Then each time Maya was launched, this script would download and run a startup m
 
 I also wrote a script on our CI server so the zip archieve would be rebuilt every time an update was made to the main git branch.
 
-![Tech Art Tools Update Diagram](/assets/NZGDC-techart-tools-update.jpg)
+{% include lightbox.html src="NZGDC-techart-tools-update.jpg" title="Tech Art Tools Update Diagram" %}
+
 
 ```python
 # userSetup.py
