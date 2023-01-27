@@ -4,6 +4,11 @@ title: "Detailed Resume"
 exclude: true
 permalink: /resume/detailed
 ---
+
+```
+This page is still under construction. Last updated 2023-01-27.
+```
+
 ## Experience
 ### Blockchain Game Developer
 *2021-12 - present*
