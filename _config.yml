@@ -29,6 +29,7 @@ permalink: pretty
 
 github_username: rohinnz
 linkedin_username: rohinknight
+resume_pdf: Rohin-Knight-Resume-2023-01-29.pdf
 
 # Google Analytics
 google_analytics: G-9MPSFQ7R9F
@@ -39,6 +40,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.

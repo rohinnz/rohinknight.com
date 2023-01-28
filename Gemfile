@@ -35,5 +35,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.7"
 
-# Sitemap
+# Jekyll Sitemap
 gem "jekyll-sitemap"
+
+# Jekyll Redirect From
+gem "jekyll-redirect-from"

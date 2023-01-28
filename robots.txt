@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /assets/ 
+Disallow: /portfolio
 Disallow: /resume
 Disallow: /resume/
 Disallow: /games/blockminer/play/

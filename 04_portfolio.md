@@ -1,11 +1,18 @@
 ---
-layout: post
-title: "Detailed Resume"
-exclude: true
-permalink: /resume/detailed
+layout: home
+title: "Portfolio"
+permalink: /portfolio
+redirect_from:
+  - /resume/detailed
 ---
-# Experience
 
+* Resume: {% include resume.html %}
+* LinkedIn: [linkedin.com/in/rohinknight](https://www.linkedin.com/in/rohinknight/)
+* Github: [github.com/rohinnz](https://github.com/rohinnz)
+* Art Station: [artstation.com/rohin](https://www.artstation.com/rohin)
+
+---
+# Work Experience
 ## Blockchain Engineer / Game Developer
 *2021-12 - present*
 
