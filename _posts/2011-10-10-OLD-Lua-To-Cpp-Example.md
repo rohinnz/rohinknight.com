@@ -12,7 +12,7 @@ tolua++ is an extended version of tolua. tolua is a tool which makes it easier t
 
 You can download toLua++ from [https://github.com/LuaDist/toluapp](https://github.com/LuaDist/toluapp)
 
-And the source code for this example can be downloaded [here]({% link assets/LuaToCppExample.zip %})
+And the source code for this example can be downloaded [here]({% link assets/code/LuaToCppExample.zip %})
 
 **Genereating tolua source files**
 
