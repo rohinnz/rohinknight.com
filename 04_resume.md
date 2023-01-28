@@ -5,4 +5,4 @@ title: Resume
 layout: home
 permalink: /resume
 ---
-[Rohin-Knight-Resume-2023-01-27.pdf](/assets/resume/Rohin-Knight-Resume-2023-01-27.pdf)
+[Rohin-Knight-Resume-2023-01-28.pdf](/assets/resume/Rohin-Knight-Resume-2023-01-28.pdf)
