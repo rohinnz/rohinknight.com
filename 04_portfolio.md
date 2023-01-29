@@ -345,7 +345,7 @@ Towards the end of the project, many people had heard about my project and came 
 
 I used to play [Call of Duty United Offensive](https://store.steampowered.com/app/2640/Call_of_Duty_United_Offensive/) a lot with friends during LAN parties.
 
-It wasn’t long before we were bored with the default maps, so I decided to build my own.
+It wasn’t long before we were bored with the default maps, so I decided to create my own.
 
 {% include lightbox.html src="cod/cod_map_editing_v2.png" title="COD Map Tool" %}
 {% include lightbox.html src="cod/shot0010.jpg" title="COD Map" %}{: style="width: 360px; display: inline-block"}
