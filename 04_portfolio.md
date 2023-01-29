@@ -271,6 +271,14 @@ When I returned from China, I built three websites as a freelancer before gettin
 
 {% include lightbox.html src="resume/website-voice-and-presence.png" title="Website: Voice and Presence" %}{: style="width: 350px; display: inline-block"}
 
+## Puzzle Game
+
+{% include lightbox.html src="resume/puzzle-game-prototype3.png" title="Game: Puzzle Game Prototype 3" %}
+
+A puzzle game I made in C++11 using Cocos2dX. The puzzles are quite challenging and no one has yet completed all 20 puzzles.
+
+The Windows build can be downloaded [here]({% link assets/code/PuzzleGamePrototype3.zip %}).
+
 ## Marvon's Cannon
 
 {% include lightbox.html src="resume/marvons-cannon1.jpg" title="Game: Marvon's Cannon - 1 of 3" %}
