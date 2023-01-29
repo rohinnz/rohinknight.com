@@ -40,12 +40,4 @@ startup.run()
 
 I gave a talk at NZGDC 2021 where I covered how this works.
 
-<iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/embed/rg0VOf-2TW8?t=12m50s"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+{% include youtube.html id="rg0VOf-2TW8" title="Rohin Knight's NZGDC 2021 Presentation on Maya and Photoshop Tools at PikPok" %}
