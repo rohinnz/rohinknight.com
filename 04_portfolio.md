@@ -356,6 +356,9 @@ I used to play [Call of Duty United Offensive](https://store.steampowered.com/ap
 It wasn’t long before we were bored with the default maps, so I decided to create my own.
 
 {% include lightbox.html src="cod/cod_map_editing_v2.png" title="COD Map Tool" %}
+
+{% include lightbox.html src="cod/shot0014.jpg" title="COD Map" %}{: style="width: 360px; display: inline-block"}
+{% include lightbox.html src="cod/shot0000.jpg" title="COD Map" %}{: style="width: 360px; display: inline-block"}
 {% include lightbox.html src="cod/shot0010.jpg" title="COD Map" %}{: style="width: 360px; display: inline-block"}
 {% include lightbox.html src="cod/shot0027.jpg" title="COD Map" %}{: style="width: 360px; display: inline-block"}
 {% include lightbox.html src="cod/shot0020.jpg" title="COD Map" %}{: style="width: 360px; display: inline-block"}
