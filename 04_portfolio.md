@@ -69,7 +69,6 @@ Games I worked on while a Technical Artist:
 * [Into The Dead 2](https://pikpok.com/games/into-the-dead-2/)
 * [Zombie Rescue Squad](https://pikpok.com/news/zombie-rescue-squad-launches-in-the-usa-on-new-snap-games-platform/)
 * [Greedy Cats](https://pikpok.com/games/greedy-cats/)
-* [I Am Monster](https://pikpok.com/games/i-am-monster/)
 * (a game still in soft launch).
 
 [//]: # [My Cat Club](https://play.google.com/store/apps/details?id=com.pikpok.cats.play)
@@ -89,7 +88,7 @@ Unity Achievements:
 * Built gradient skybox shader and set up Cinemachine cameras for boss fight scene. (I Am Monster.)
 
 Maya and Photoshop Achievements:
-* Gave a presentation at NZGDC 2021: [www.youtube.com/watch?v=rg0VOf-2TW8](www.youtube.com/watch?v=rg0VOf-2TW8)
+* Gave my first presentation at NZGDC 2021.
 * Updated Maya script distribution, so scripts get compiled and zipped on CI Server. Also, set up Sentry reporting and unit testing.
 * Rebuilt tool for reporting UV usage (Used the more complex API OpenMaya for better performance and improved math, using triangle area formula instead of Heron’s formula)
 * Built a tool for bulk animation import, bake, playblasts, and export. Also added a feature to save clip notes and search through all clips in projects and the mocap library.
@@ -98,6 +97,18 @@ Maya and Photoshop Achievements:
 Other Achievements:
 * Built Windows app to bulk install Unity versions with script templates and sync with Unity Hub. The tool included a self-update feature. Now used by everyone in Studio.
 * Wrote npm script and pre-commit git hook for our Unity packages to enforce consistent namespaces and correct format for changelog updates.
+
+### My NZGDC 2021 Presentation on Maya and Photoshop Tools
+<iframe title="Rohin Knight - NZGDC 2021 Presentation on Maya and Photoshop Tools at PikPok" width="640" height="360" src="https://www.youtube.com/embed/rg0VOf-2TW8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+### Trailers and Gameplay Videos
+<iframe title="Agent Intercept Trailer by PikPok" width="640" height="360" src="https://www.youtube.com/embed/j_IMOxtV1e0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<iframe title="Rival Stars Horse Racing Trailer by PikPok" width="640" height="360" src="https://www.youtube.com/embed/BROasPBA2y8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<iframe title="Into The Dead 2 Trailer by PikPok" width="640" height="360" src="https://www.youtube.com/embed/4SxSFPYvSS0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<iframe title="Snapchat game Zombie Rescue Squad by PikPok" width="640" height="360" src="https://www.youtube.com/embed/TP-mzJrxsjU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
 ## Game Programmer
 **PikPok** - [pikpok.com](https://pikpok.com/)<br />*2015-01 -2018-06*
@@ -125,6 +136,19 @@ I also did live ops work on
 * [Turbo Fast](https://pikpok.com/news/turbo-fast-tops-50-million-downloads/) (C++)
 * [Robot Unicorn Attack 2](https://www.youtube.com/watch?v=eEIxMmsd548) (C++)
 
+### Trailers and Gameplay Videos
+<iframe title="Breakneck Trailer by PikPok" width="640" height="360" src="https://www.youtube.com/embed/bNrolcIADqs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<iframe title="I Am Monster Trailer by PikPok" width="640" height="360" src="https://www.youtube.com/embed/ekNfJQBq4Q8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<iframe title="Rival Stars College Football Trailer by PikPok" width="640" height="360" src="https://www.youtube.com/embed/S4WZttMnmUg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<iframe title="Four Letters Trailer by PikPok" width="640" height="360" src="https://www.youtube.com/embed/GyYDs4oO_g8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<iframe title="Turbo Racing League. Developed by PikPok. Published by Dream Works" width="640" height="360" src="https://www.youtube.com/embed/In7zpnRQLQ4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<iframe title="Robot Unicorn Attack 2. Developed by PikPok. Published by Adult Swim" width="640" height="360" src="https://www.youtube.com/embed/eEIxMmsd548?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
 ## Mobile App Developer
 **Bank of New Zealand** - [bnz.co.nz](https://www.bnz.co.nz/)<br />*2013-08 - 2015-01*
 
@@ -148,6 +172,9 @@ applied in code
 * Created an HTML5 prototype while investigating moving to HTML5 so we could have one codebase for iOS and Android.
 * Wrote custom build scripts and set up a Hudson build server.
 
+
+
+{% include lightbox.html src="resume/survey-app.gif" title="iSURVEY App" %}{: style="width: 350px; display: block"}
 {% include lightbox.html src="resume/isurvey-1.jpg" title="iSURVEY App - 1 of 2" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="resume/isurvey-2.jpg" title="iSURVEY App - 2 of 2" %}{: style="width: 350px; display: inline-block"}
 
@@ -352,17 +379,18 @@ Towards the end of the project, many people had heard about my project and came 
 {% include lightbox.html src="resume/brutal-chess3.png" title="Brutal Chess - Image 3 of 4" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="resume/brutal-chess4.png" title="Brutal Chess - Image 4 of 4" %}{: style="width: 350px; display: inline-block"}
 
-## COD Level Building
+---
+# Custom Maps for Call Of Duty
 
-I used to play Call of Duty: United Offensive a lot with friends during LAN parties.
+I used to play [Call of Duty United Offensive](https://store.steampowered.com/app/2640/Call_of_Duty_United_Offensive/) a lot with friends during LAN parties.
 
 It wasn't long before we were borded of the default maps, so I decided to build my own.
 
 {% include lightbox.html src="cod/shot0010.jpg" title="COD Map" %}{: style="width: 350px; display: inline-block"}
+{% include lightbox.html src="cod/shot0027.jpg" title="COD Map" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="cod/shot0020.jpg" title="COD Map" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="cod/shot0035.jpg" title="COD Map" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="cod/shot0025.jpg" title="COD Map" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="cod/shot0042.jpg" title="COD Map" %}{: style="width: 350px; display: inline-block"}
-{% include lightbox.html src="cod/shot0027.jpg" title="COD Map" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="cod/shot0047.jpg" title="COD Map" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="cod/shot0018.jpg" title="COD Map" %}{: style="width: 350px; display: inline-block"}
