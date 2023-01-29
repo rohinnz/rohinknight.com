@@ -305,7 +305,7 @@ I built a side-scroller game to teach myself Python while living in China. I cre
 
 {% include youtube.html id="71SgkFh5rlM" title="Game: Kana Invaders" %}
 
-This is the first C++ game I wrote using the SDL framework. It is an educational game for learning the Japanese Hiragana and Katakana.
+This is the first C++ game I made using the SDL framework. It is an educational game for learning the Japanese Hiragana and Katakana.
 
 The user must quickly enter the Kana's romanji as it falls from the top of the screen. Each time a Kana character gets hit, the pronunciation sound for that Kana will play.
 
