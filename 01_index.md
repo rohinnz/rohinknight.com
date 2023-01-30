@@ -6,7 +6,7 @@ layout: home
 permalink: /
 ---
 
-Hi, I’m Rohin Knight, a programmer with over 15 years of commercial experience and over eight years of experience in the games industry.
+Hi, I’m Rohin Knight, a programmer with 15 years of commercial experience and eight years of experience in the games industry.
 During my career, I’ve developed games, mobile apps and websites while working with some fantastic people in startups to large corporate companies. 
 
 I love tackling new challenges and helping people solve complex problems, and I have a proven track record for completing tasks on time and under pressure.

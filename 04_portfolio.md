@@ -16,17 +16,19 @@ redirect_from:
 ## Blockchain Engineer / Game Developer
 *2021-12 - present*
 
-Building a Web3 puzzle game where players can mint their own puzzles as NFTs. Players can win prizes for solving on-chain puzzles and earn royalties when their NFTs are used to construct larger puzzles.
+I'm building a Web3 puzzle game where players can mint their own puzzles as NFTs. Players will be able to win prizes for solving on-chain puzzles and earn royalties when their NFTs are used to construct larger puzzles. Started part-time. Full-time since December 2021.
 
 I have solved many challenges, like preventing front-running to submitted solutions and finding a feasible solution to an expensive on-chain puzzle solver.
 
-Hardhat project on Github: [github.com/rohinnz/Block-Miner-Smart-Contracts](https://github.com/rohinnz/Block-Miner-Smart-Contracts)
+The hardhat project is on Github: [github.com/rohinnz/Block-Miner-Smart-Contracts](https://github.com/rohinnz/Block-Miner-Smart-Contracts)
 
 I have also written two posts on Solidity security and gas optimization:
 * [How to Prevent Reentrancy Attacks in Solidity]({% link _posts/2023-01-15-Reentrancy-Attacks.md %})
 * [Optimizing Smart Contract Gas Costs]({% link _posts/2023-01-20-Solidity-Gas-Optimization.md %})
 
-The game client is being built in Unity. I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet. I will upload it to this website very soon.
+And I am currently learning [Rust](https://www.rust-lang.org/) and [Substrate](https://substrate.io/).
+
+The game client is being built in Unity. I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet. I plan to update it to this website soon.
 
 {% include lightbox.html src="resume/block-miner-level-editor.png" title="Block Miner - Level Editor" %}
 
