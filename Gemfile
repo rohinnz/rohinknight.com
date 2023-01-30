@@ -40,6 +40,3 @@ gem "jekyll-sitemap"
 
 # Jekyll Redirect From
 gem "jekyll-redirect-from"
-
-# Jekyll SEO
-gem "jekyll-seo-tag"

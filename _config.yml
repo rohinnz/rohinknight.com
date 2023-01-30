@@ -41,7 +41,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo
   - jekyll-redirect-from
 
 # Exclude from processing.
