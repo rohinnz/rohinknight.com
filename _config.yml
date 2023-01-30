@@ -20,16 +20,17 @@
 
 title: Rohin Knight
 description: >- # this means to ignore newlines until "baseurl:"
-  Rohin is a programmer with a passion for Web3 gaming.
-  His current experience is in Blockchain Programming,
-  Game Development and Technical Art.
+  I'm a Blockchain Engineer / Game Developer who loves tackling new challenges
+  and helping people solve complex problems. I have 15 years of commercial
+  experience, eight years in the games industry, and a proven track record for
+  completing tasks on time and under pressure.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rohinknight.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
 github_username: rohinnz
 linkedin_username: rohinknight
-resume_pdf: Rohin-Knight-Resume-2023-01-30.pdf
+resume_pdf: Rohin-Knight-Resume-2023-01-31.pdf
 
 # Google Analytics
 google_analytics: G-9MPSFQ7R9F
@@ -40,6 +41,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo
   - jekyll-redirect-from
 
 # Exclude from processing.
