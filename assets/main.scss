@@ -3,3 +3,8 @@
 ---
 
 @import "minima";
+
+.footer-col-3 {
+  width: -webkit-calc(65% - (#{$spacing-unit} / 2));
+  width:         calc(65% - (#{$spacing-unit} / 2));
+}
