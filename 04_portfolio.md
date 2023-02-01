@@ -28,7 +28,7 @@ I have also written two posts on Solidity security and gas optimization:
 
 And I am currently learning [Rust](https://www.rust-lang.org/) and [Substrate](https://substrate.io/).
 
-The game client is being built in Unity. I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet. I plan to update it to this website soon.
+The game client is being built in Unity. I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet. I plan to upload it to this website soon.
 
 {% include lightbox.html src="resume/block-miner-level-editor.png" title="Block Miner - Level Editor" %}
 
