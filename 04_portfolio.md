@@ -262,7 +262,7 @@ A C++ game built during Pixel Jam. You would drop pieces just like in Tetris wit
 [//]: # todo: Find game and record YouTube video
 
 ---
-# Old Projects
+# Other Projects
 
 ## Websites
 
