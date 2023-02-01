@@ -40,6 +40,7 @@ The game client is being built in Unity. I currently have a WebGL prototype that
 I worked on [Moonville Farms](https://myria.com/game-detail/?gameId=moonville-farms) (A play-and-earn tycoon farming simulator) as the second lead programmer. It was a fully remote team across multiple time zones. I joined right at the start with the lead programmer, and together we wrote the TDD, designed the initial architecture and then interviewed programmer candidates and scaled up the team.
 
 Some of my achievements include
+* Helping architect the game. 
 * Reviewing other programmers' work and giving feedback.
 * Interviewing candidates (sometimes as the sole interviewer).
 * Writing code for our .NET Server, including setting up unit tests.
@@ -71,7 +72,7 @@ Titles I worked on:
 [//]: # [My Cat Club](https://play.google.com/store/apps/details?id=com.pikpok.cats.play)
 
 Unity Achievements:
-* Built a UI scroll grid pooling system that allowed scrolling of thousands of items. Had an auto-layout feature with items able to span multiple rows/ columns. This package is now being used in all our projects.
+* Built a UI scroll grid pooling system that allowed scrolling of thousands of items. It had an auto-layout feature with items able to span multiple rows/ columns. This package is now being used in all their recent games.
 * Built a 2D Soft Mask package with support for nested 9-slice masks. Optimized performance via shader variants and precalculated some parts outside shader to avoid shader branching for mobile.
 * Added SpeedTree wind support to a custom shader. Also needed to build an editor tool to fix old SpeedTree assets.
 * Added Unity's terrain height blending to an old terrain shader. I used albedo alpha for height so I could exclude the mask texture and reduce the size.
@@ -86,13 +87,13 @@ Unity Achievements:
 
 Maya and Photoshop Achievements:
 * Gave my first presentation at NZGDC 2021.
-* Updated Maya script distribution, so scripts get compiled and zipped on CI Server. Also, set up Sentry reporting and unit testing.
+* Updated Maya tool distribution for artists so they would always have the latest each time they started Maya. Also, set up Sentry reporting and unit testing.
 * Rebuilt tool for reporting UV usage (Used the more complex API OpenMaya for better performance and improved math, using triangle area formula instead of Heron’s formula)
 * Built a tool for bulk animation import, bake, playblasts, and export. Also added a feature to save clip notes and search through all clips in projects and the mocap library.
 * Built multiple Photoshop plugins using UXP. The most complex one would export screenshots in multiple languages and ensure they were below a target file size.
 
 Other Achievements:
-* Built Windows app to bulk install Unity versions with script templates and sync with Unity Hub. The tool included a self-update feature. Now used by everyone in Studio.
+* Built Windows app with GUI to bulk install Unity versions with script templates and sync with Unity Hub. The tool included a self-update feature, and it would scan your local checkouts and show you which projects required which version. Now used by everyone in Studio.
 * Wrote npm script and pre-commit git hook for our Unity packages to enforce consistent namespaces and correct format for changelog updates.
 
 ### My NZGDC 2021 Presentation on Maya and Photoshop Tools
@@ -109,10 +110,10 @@ Other Achievements:
 
 * Worked on several Unity game projects
 * Did a lot of Live Ops work on our legacy C++ titles, fixing hard-to-repro bugs, Upgrading ad plugins, configuring build settings, etc.
-* Updated in-house iOS & Android plugins for In-app purchases and Ads.
+* Updated Unity iOS & Android plugins for In-app purchases and Ads.
 * Built a complex Pyramid (Python) server app with a complex web scraper. This server app was used to track the top 200 apps in the Play store in every category for every country. Used Celery and Redis for handling multiple scraper tasks on an AWS server.
 * Built a company floor plan web app (Flask) during a lab day. You could drag and drop people and furniture. Previously someone had to constantly update a PSD document.
-* Built iOS plugin for 3D Touch Support (before Unity had its own solution)
+* Built Unity iOS plugin for 3D Touch Support (before Unity had its own solution)
 
 Titles I worked on:
 * [Breakneck](https://pikpok.com/games/breakneck/)
