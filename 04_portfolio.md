@@ -108,7 +108,7 @@ Other Achievements:
 ## Game Programmer
 **PikPok** - [pikpok.com](https://pikpok.com/)<br />*2015-01 -2018-06*
 
-* Worked on several Unity game projects
+* Worked on several Unity game projects.
 * Did a lot of Live Ops work on our legacy C++ titles, fixing hard-to-repro bugs, Upgrading ad plugins, configuring build settings, etc.
 * Updated Unity iOS & Android plugins for In-app purchases and Ads.
 * Built a complex Pyramid (Python) server app with a complex web scraper. This server app was used to track the top 200 apps in the Play store in every category for every country. Used Celery and Redis for handling multiple scraper tasks on an AWS server.
@@ -263,24 +263,24 @@ A C++ game built during Pixel Jam. You would drop pieces just like in Tetris wit
 [//]: # todo: Find game and record YouTube video
 
 ---
-# Other Projects
+# Other Games
 
-## Websites
-
-When I returned from China, I built three websites as a freelancer before getting a job as a mobile app developer.
-
-{% include lightbox.html src="resume/website-infuture-design.jpg" title="Website: Infuture Design" %}{: style="width: 350px; display: inline-block"}
-{% include lightbox.html src="resume/website-chris-photography.jpg" title="Website: Chris Photography" %}{: style="width: 360px; display: inline-block"}
-
-{% include lightbox.html src="resume/website-voice-and-presence.png" title="Website: Voice and Presence" %}{: style="width: 350px; display: inline-block"}
-
-## Puzzle Game
+## Puzzle Game - C++11
 
 {% include lightbox.html src="resume/puzzle-game-prototype3.png" title="Game: Puzzle Game Prototype 3" %}
 
 A puzzle game I made in C++11 using Cocos2dX. The puzzles are quite challenging and no one has yet completed all 20 puzzles.
 
 The Windows build can be downloaded [here]({% link assets/code/PuzzleGamePrototype3.zip %}).
+
+## Puzzle Game Prototype - TypeScript
+
+{% include lightbox.html src="resume/puzzle-game-typescript.png" title="Game: TypeScript Puzzle Game Prototype" %}
+
+A puzzle game prototype I built to teach myself TypeScript. Uses the [Phaser 3 Framework](https://phaser.io/phaser3).
+Similar to the C++ version, but moves are now turn based with an undo feature.
+
+I've uploaded the project to GitHub: [github.com/rohinnz/Puzzle-Game-TypeScript](https://github.com/rohinnz/Puzzle-Game-TypeScript)
 
 ## Marvon's Cannon
 
@@ -350,6 +350,16 @@ Towards the end of the project, many people had heard about my project and came 
 
 {% include lightbox.html src="resume/brutal-chess3.png" title="Brutal Chess - Image 3 of 4" %}{: style="width: 360px; display: inline-block"}
 {% include lightbox.html src="resume/brutal-chess4.png" title="Brutal Chess - Image 4 of 4" %}{: style="width: 360px; display: inline-block"}
+
+---
+# Websites
+
+When I returned from China, I built three websites as a freelancer before getting a job as a mobile app developer.
+
+{% include lightbox.html src="resume/website-infuture-design.jpg" title="Website: Infuture Design" %}{: style="width: 350px; display: inline-block"}
+{% include lightbox.html src="resume/website-chris-photography.jpg" title="Website: Chris Photography" %}{: style="width: 360px; display: inline-block"}
+
+{% include lightbox.html src="resume/website-voice-and-presence.png" title="Website: Voice and Presence" %}{: style="width: 350px; display: inline-block"}
 
 ---
 # Custom Maps for Call Of Duty
