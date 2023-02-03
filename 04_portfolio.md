@@ -190,7 +190,7 @@ Languages and tools used: Drupal, PHP, HTML, CSS, JavaScript, JQuery, Ajax, SQL,
 Achievements:<br />
 * Wrote a bash script to automate site deployment to staging and production.
 * Helped develop and maintain multiple Drupal websites. During most projects, I worked directly with the clients.
-* Built a phpList newsletter system for the Civil Aviation Authority. [notifications.caa.govt.nz/](http://notifications.caa.govt.nz/). The biggest challenge was avoiding core hacks to phpList so updates would be easy in the future. I was able to avoid this mostly by using Apache mod_rewrite scripting. However, there were two places where core hacks could not be avoided, so I ensured there was plenty of documentation covering this so future updates to phpList would be smooth.
+* Built a phpList newsletter system for the Civil Aviation Authority ([notifications.caa.govt.nz/](http://notifications.caa.govt.nz/)). The biggest challenge was avoiding core hacks to phpList so updates would be easy in the future. I was able to avoid this mostly by using Apache mod_rewrite scripting. However, there were two places where core hacks could not be avoided, so I ensured there was plenty of documentation covering this so future updates to phpList would be smooth.
 
 {% include lightbox.html src="resume/website-recommended.png" title="Recommended Website" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="resume/website-voxy.png" title="Voxy Website" %}{: style="width: 350px; display: inline-block"}
