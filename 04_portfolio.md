@@ -28,7 +28,7 @@ I have also written two posts on Solidity security and gas optimization:
 
 And I am currently learning [Rust](https://www.rust-lang.org/) and [Substrate](https://substrate.io/).
 
-The game client is being built in Unity. I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet. I plan to upload it to this website soon.
+The game client is being built in Unity using the [ChainSafe web3.unity SDK](https://gaming.chainsafe.io/). I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet. I plan to upload it to this website soon.
 
 {% include lightbox.html src="resume/block-miner-level-editor.png" title="Block Miner - Level Editor" %}
 
@@ -83,6 +83,7 @@ Unity Achievements:
 * Built a tool for duplicating whole game environments. Would duplicate Unity assets with materials and nested prefabs (Unity editor and Python script.)
 * Built an editor tool for multi-prop placement, with the ability to change brush size and randomize selection, rotations, scale, etc. (Despite being an editor tool, it still required some performance optimization, including the use of square magnitude for comparing distances.)
 * Built an editor tool for taking screenshots. Captured multiple resolutions in all available languages.
+* Built an editor tool to quickly show/hide objects in the scene with a visibility indicator in the hierarchy (Before Unity 2019.1 was released with the visibility controls).
 * Built gradient skybox shader and set up Cinemachine cameras for the boss fight scene. (I Am Monster.)
 
 Maya and Photoshop Achievements:
@@ -171,6 +172,15 @@ applied in code
 {% include lightbox.html src="resume/isurvey-1.jpg" title="iSURVEY App - 1 of 2" %}{: style="width: 350px; display: inline-block"}
 {% include lightbox.html src="resume/isurvey-2.jpg" title="iSURVEY App - 2 of 2" %}{: style="width: 350px; display: inline-block"}
 
+## Website Developer
+*2011-03 - 2011-04*
+
+I built three websites with a friend. Two using Drupal CMS and one using GetSimple CMS. I did the programming and my friend did the graphics design work.
+
+{% include lightbox.html src="resume/website-infuture-design.jpg" title="Website: Infuture Design" %}{: style="width: 350px; display: inline-block"}
+{% include lightbox.html src="resume/website-chris-photography.jpg" title="Website: Chris Photography" %}{: style="width: 360px; display: inline-block"}
+{% include lightbox.html src="resume/website-voice-and-presence.png" title="Website: Voice and Presence" %}{: style="width: 350px; display: inline-block"}
+
 ## English Teacher in China
 *2010-01 - 2010-12*
 
@@ -185,7 +195,7 @@ During this time I
 
 [Catalyst](https://www.catalyst.net.nz/) is New Zealand's largest open source specialist. During my time there I worked soley in a Linux environment and became familiar with the Ubuntu OS.
 
-Languages and tools used: Drupal, PHP, HTML, CSS, JavaScript, JQuery, Ajax, SQL, MySQL, PostgreSQL, Xdebug, Apache, mod_rewrite, Linux VServers, and bash scripting.
+Languages and tools used: Drupal CMS, PHP, HTML, CSS, JavaScript, JQuery, Ajax, SQL, MySQL, PostgreSQL, Xdebug, Apache, mod_rewrite, Linux VServers, and bash scripting.
 
 Achievements:<br />
 * Wrote a bash script to automate site deployment to staging and production.
@@ -350,16 +360,6 @@ Towards the end of the project, many people had heard about my project and came 
 
 {% include lightbox.html src="resume/brutal-chess3.png" title="Brutal Chess - Image 3 of 4" %}{: style="width: 360px; display: inline-block"}
 {% include lightbox.html src="resume/brutal-chess4.png" title="Brutal Chess - Image 4 of 4" %}{: style="width: 360px; display: inline-block"}
-
----
-# Websites
-
-When I returned from China, I built three websites as a freelancer before getting a job as a mobile app developer.
-
-{% include lightbox.html src="resume/website-infuture-design.jpg" title="Website: Infuture Design" %}{: style="width: 350px; display: inline-block"}
-{% include lightbox.html src="resume/website-chris-photography.jpg" title="Website: Chris Photography" %}{: style="width: 360px; display: inline-block"}
-
-{% include lightbox.html src="resume/website-voice-and-presence.png" title="Website: Voice and Presence" %}{: style="width: 350px; display: inline-block"}
 
 ---
 # Custom Maps for Call Of Duty
