@@ -110,7 +110,7 @@ Other Achievements:
 **PikPok** - [pikpok.com](https://pikpok.com/)<br />*2015-01 -2018-06*
 
 * Worked on several Unity game projects.
-* Did a lot of Live Ops work on our legacy C++ titles, fixing hard-to-repro bugs, Upgrading ad plugins, configuring build settings, etc.
+* Did a lot of Live Ops work on our legacy C++ titles, fixing hard-to-repro bugs, upgrading ad plugins, configuring build settings, etc.
 * Updated Unity iOS & Android plugins for In-app purchases and Ads.
 * Built a complex Pyramid (Python) server app with a complex web scraper. This server app was used to track the top 200 apps in the Play store in every category for every country. Used Celery and Redis for handling multiple scraper tasks on an AWS server.
 * Built a company floor plan web app (Flask) during a lab day. You could drag and drop people and furniture. Previously someone had to constantly update a PSD document.
@@ -140,6 +140,13 @@ Titles I did live ops work on
 {% include youtube.html id="GyYDs4oO_g8" title="Four Letters Trailer by PikPok" %}
 {% include youtube.html id="In7zpnRQLQ4" title="Turbo Racing League. Developed by PikPok. Published by Dream Works" %}
 {% include youtube.html id="eEIxMmsd548" title="Robot Unicorn Attack 2. Developed by PikPok. Published by Adult Swim" %}
+
+## Programmer (Part-time contractor)
+**Card Testing International** -  [cardtest.com](https://www.cardtest.com/)<br />*2018-12 - 2019-01*
+
+[Card Testing International](https://www.cardtest.com/) is a laboratory that specialises in card ISO testing.
+
+I built an app to stress test ATR smart card requests (Python, C++).
 
 ## Mobile App Developer
 **Bank of New Zealand (BNZ)** - [bnz.co.nz](https://www.bnz.co.nz/)<br />*2013-08 - 2015-01*
@@ -296,7 +303,7 @@ I've uploaded the project to GitHub: [github.com/rohinnz/Puzzle-Game-TypeScript]
 
 {% include lightbox.html src="resume/marvons-cannon1.jpg" title="Game: Marvon's Cannon - 1 of 3" %}
 
-When I returned from China, I decided to teach myself iOS development by building a game. In this game, you have a cannon at the top of the hill on the left, and you must take down all approaching monsters from the right.
+When I returned from China, I decided to teach myself iOS development and Objective-C by building a game. In this game, you have a cannon at the top of the hill on the left, and you must take down all approaching monsters from the right.
 
 I didn't use any physics engine. Instead, I calculated the initial velocity for each cannonball based on where the player tapped the screen so the cannonball would pass through that point. Then, for the ground, I traced and then exported a path for it from GIMP and then used a line intersection calculation to keep the monsters above the ground.
 
