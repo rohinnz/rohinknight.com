@@ -6,16 +6,11 @@ layout: home
 permalink: /
 ---
 
-Hi, I’m Rohin Knight, a programmer with 15 years of commercial experience and eight years of experience in the games industry.
-During my career, I’ve developed games, mobile apps and websites while working with some fantastic people in startups to large corporate companies. 
+Hello, my name is Rohin Knight and I am a seasoned programmer with 15 years of commercial experience, including 8 years in the games industry. Throughout my career, I have developed games, mobile apps and websites while collaborating with some talented individuals from startups to large corporations.
 
-I love tackling new challenges and helping people solve complex problems, and I have a proven track record for completing tasks on time and under pressure.
+I currently specialize in Blockchain Programming and Game Development, including Technical Art. I thrive on taking on new challenges and finding creative solutions to complex problems. My track record speaks for itself, consistently delivering high-quality work and being able to deliver on time and under pressure.
 
-My passion is Web3, and it is so exciting to be pioneering in this space with bleeding-edge technology. I am currently building a Web3 puzzle game where players will be able to mint their own puzzles as NFTs. I have also recently written two posts about Smart Contract security and optimization:
-* [How to Prevent Reentrancy Attacks in Solidity]({% link _posts/2023-01-15-Reentrancy-Attacks.md %})
-* [Optimizing Smart Contract Gas Costs]({% link _posts/2023-01-20-Solidity-Gas-Optimization.md %})
-
-Please see my [portfolio]({% link 04_portfolio.md %}) for more information.
+For more information about my experience and skills, please check out my [portfolio]({% link 04_portfolio.md %}).
 
 ## Other Interests
 

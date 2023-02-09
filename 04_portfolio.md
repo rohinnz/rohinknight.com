@@ -16,7 +16,7 @@ redirect_from:
 ## Blockchain Engineer / Game Developer
 *2021-12 - present*
 
-I'm building a Web3 puzzle game where players can mint their own puzzles as NFTs. Players will be able to win prizes for solving on-chain puzzles and earn royalties when their NFTs are used to construct larger puzzles. Started part-time. Full-time since December 2022.
+I am building a Web3 puzzle game where players can mint their own puzzles as NFTs. Players will be able to win prizes for solving on-chain puzzles and earn royalties when their NFTs are used to construct larger puzzles. Started part-time. Full-time since December 2022.
 
 I have solved many challenges, like preventing front-running to submitted solutions and finding a feasible solution to an expensive on-chain puzzle solver.
 

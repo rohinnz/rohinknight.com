@@ -20,10 +20,9 @@
 
 title: Rohin Knight
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a Blockchain Engineer / Game Developer who loves tackling new challenges
-  and helping people solve complex problems. I have 15 years of commercial
-  experience, eight years in the games industry, and a proven track record for
-  completing tasks on time and under pressure.
+  Rohin is a seasoned programmer with 15 years of commercial experience,
+  including 8 years in the games industry. He currently specializes in
+  Blockchain Programming and Game Development, including Technical Art.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rohinknight.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
