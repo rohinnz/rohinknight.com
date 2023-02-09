@@ -20,9 +20,9 @@ I am building a Web3 puzzle game where players can mint their own puzzles as NFT
 
 I have solved many challenges, like preventing front-running to submitted solutions and finding a feasible solution to an expensive on-chain puzzle solver.
 
-The hardhat project is on Github: [github.com/rohinnz/Block-Miner-Smart-Contracts](https://github.com/rohinnz/Block-Miner-Smart-Contracts)
+The blockchain project (Solidity, TypeScript, Hardhat) project is viewable on Github: [github.com/rohinnz/Block-Miner-Smart-Contracts](https://github.com/rohinnz/Block-Miner-Smart-Contracts)
 
-I have also written two posts on Solidity security and gas optimization:
+Also, I have solid Solidity experience (including Yul assembly) and have written two posts on Solidity security and gas optimization:
 * [How to Prevent Reentrancy Attacks in Solidity]({% link _posts/2023-01-15-Reentrancy-Attacks.md %})
 * [Optimizing Smart Contract Gas Costs]({% link _posts/2023-01-20-Solidity-Gas-Optimization.md %})
 
