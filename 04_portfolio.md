@@ -13,10 +13,19 @@ redirect_from:
 
 ---
 # Work Experience
-## Blockchain Engineer / Game Developer
-*2021-12 - present*
+## Smart Contract Engineer (Part-time)
+**IOTAplus AG** - [iota-plus.com](https://iota-plus.com/)<br />*2023-02 - present*
 
-I am building a Web3 puzzle game where players can mint their own puzzles as NFTs. Players will be able to win prizes for solving on-chain puzzles and earn royalties when their NFTs are used to construct larger puzzles. Started part-time. Full-time since December 2022.
+I have just joined the Sphere project team ([sphere-hub.io](https://sphere-hub.io/)).
+
+I will be writing and optimizing Solidity smart contracts. More details will be added soon.
+
+*Note: This role is strictly part-time, and I am still available for full-time work.*
+
+## Smart Contract Engineer / Game Developer (Part-time)
+**Personal Project**<br />*2021-12 - present*
+
+I am building a Web3 puzzle game where players can mint their own puzzles as NFTs. Players will be able to win prizes for solving on-chain puzzles and earn royalties when their NFTs are used to construct larger puzzles.
 
 I have solved many challenges, like preventing front-running to submitted solutions and finding a feasible solution to an expensive on-chain puzzle solver.
 
@@ -28,7 +37,7 @@ Also, I have solid Solidity experience (including Yul assembly) and have written
 
 And I am currently learning [Rust](https://www.rust-lang.org/) and [Substrate](https://substrate.io/).
 
-The game client is being built in Unity using the [ChainSafe web3.unity SDK](https://gaming.chainsafe.io/). I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet. I plan to upload it to this website soon.
+The game client is being built in Unity using the [ChainSafe web3.unity SDK](https://gaming.chainsafe.io/). I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet.
 
 {% include lightbox.html src="resume/block-miner-level-editor.png" title="Block Miner - Level Editor" %}
 
