@@ -22,6 +22,8 @@ I will be writing and optimizing Solidity smart contracts. More details will be 
 
 *Note: This role is strictly part-time, and I am still available for full-time work.*
 
+{% include lightbox.html src="resume/sphere-project-avatar1.png" title="Sphere Project Avatar" %}
+
 ## Smart Contract Engineer / Game Developer (Part-time)
 **Personal Project**<br />*2021-12 - present*
 
