@@ -53,7 +53,7 @@ I worked on [Moonville Farms](https://myria.com/game-detail/?gameId=moonville-fa
 Some of my achievements include
 * Helping architect the game. 
 * Reviewing other programmers' work and giving feedback.
-* Interviewing candidates (sometimes as the sole interviewer).
+* Interviewing candidates (often as the sole interviewer).
 * Writing code for our .NET Server, including setting up unit tests.
 * Writing documentation for the whole team. This included our C# coding standards and step-by-step guides for setting up projects and how to use Git with SSH on Windows which was also non-programmer friendly.
 * Setting up the world map. There were several challenges, such as max WebGL texture size, pathfinding, and the pipeline for updating tile data.
@@ -378,6 +378,15 @@ Towards the end of the project, many people had heard about my project and came 
 
 {% include lightbox.html src="resume/brutal-chess3.png" title="Brutal Chess - Image 3 of 4" %}{: style="width: 360px; display: inline-block"}
 {% include lightbox.html src="resume/brutal-chess4.png" title="Brutal Chess - Image 4 of 4" %}{: style="width: 360px; display: inline-block"}
+
+## ASCII Tetris
+
+{% include lightbox.html src="resume/ascii-tetris.gif" title="ASCII Tetris" %}
+This is the first game I created back in 2005.
+
+It is a console app that runs in the Windows terminal.
+
+Surprisingly it still compiles and runs on Windows 11.<br /><br />
 
 ---
 # Custom Maps for Call Of Duty
