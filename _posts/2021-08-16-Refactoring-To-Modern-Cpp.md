@@ -6,7 +6,7 @@ categories: cpp
 ---
 I was once given a task to refactor some legacy C++ code into modern C++11.
 
-This example code can be downloaded [here]({% link assets/code/CppRefactoringExample.zip %}). It is a simple console app for storing and retrieving messages in memory.
+This example code can be downloaded [here](https://github.com/rohinnz/Cpp-Refactoring-Example). It is a simple console app for storing and retrieving messages in memory.
 
 ## Original Code
 
