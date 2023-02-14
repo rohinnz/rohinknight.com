@@ -22,7 +22,7 @@ title: Rohin Knight
 description: >- # this means to ignore newlines until "baseurl:"
   Rohin is a seasoned programmer with 15 years of commercial experience,
   including 8 years in the games industry. He currently specializes in
-  Blockchain Programming and Game Development, including Technical Art.
+  Game Development (incl. Tech Art) and Blockchain Programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rohinknight.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty

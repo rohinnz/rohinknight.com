@@ -8,7 +8,7 @@ permalink: /
 
 Hello, my name is Rohin Knight and I am a seasoned programmer with 15 years of commercial experience, including 8 years in the games industry. Throughout my career, I have developed games, mobile apps and websites while collaborating with some talented individuals from startups to large corporations.
 
-I currently specialize in Blockchain Programming and Game Development, including Technical Art. I thrive on taking on new challenges and finding creative solutions to complex problems. My track record speaks for itself, consistently delivering high-quality work and being able to deliver on time and under pressure.
+I currently specialize in Game Development (including Tech Art) and Blockchain Programming. I thrive on taking on new challenges and finding creative solutions to complex problems. My track record speaks for itself, consistently delivering high-quality work and being able to deliver on time and under pressure.
 
 For more information about my experience and skills, please check out my [portfolio]({% link 04_portfolio.md %}).
 
