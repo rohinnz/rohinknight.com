@@ -384,7 +384,7 @@ Towards the end of the project, many people had heard about my project and came 
 {% include lightbox.html src="resume/ascii-tetris.gif" title="ASCII Tetris" %}
 This is the first game I created back in 2005.
 
-It is a console app that runs in the Windows terminal.
+It is a Command Prompt app built in C++.
 
 Surprisingly it still compiles and runs on Windows 11.<br /><br />
 
