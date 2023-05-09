@@ -13,35 +13,67 @@ redirect_from:
 
 ---
 # Work Experience
-## Smart Contract Engineer (Part-time)
-**IOTAplus AG** - [iota-plus.com](https://iota-plus.com/)<br />*2023-02 - present*
 
-I have just joined the Sphere project team ([sphere-hub.io](https://sphere-hub.io/)).
+## Senior Technical Artist
+**Playside Studios**<br />*2023-02 - Present*
 
-I will be writing and optimizing Solidity smart contracts. More details will be added soon.
+{% include lightbox.html src="resume/playside-logo.png" title="Dmple Gameplay" %}
 
-*Note: This role is strictly part-time, and I am still available for full-time work.*
+I'm currently working on a AAA game. I've just done some shader/graphics programming in Unity for a POC and I'm now doing shader/graphics programming work in a C++ game engine.
+
+Will add more info later once the game is announced.
+
+
+## Senior Software Developer (Part-time)
+**Dmple Studio**<br />*2023-02 - 2023-04*
+
+{% include lightbox.html src="resume/dmple-logo.png" title="Dmple Studio Logo" %}
+
+Dmple Studio was a startup that wanted to help people build meaningful relationships with each other. While two people were having a conversation their avatars would go on an aventure together through a fantasy world.
+
+I built the game simulation in Unity WebGL and integrated it with a React chat app. The game would update the avatars' speed based on the number of words being typed. The avatars would also start dancing if certain words like "happy" were detected in the conversation.
+
+In order to keep both game clients in sync, I seeded the random number generation, so the same level generation, number of enemies, etc was the same for both.
+
+I also coded a custom URP shader for the characters to allow for different color schemes. Here's the part of the shader that does the magic:
+
+```hlsl
+// Sample colors from both albedo texture and mask texture
+half4 c = SAMPLE_TEXTURE2D(_BaseMap, sampler_BaseMap, input.uv);
+half4 m = SAMPLE_TEXTURE2D(_MyMask, sampler_MyMask, input.uv);
+
+half3 PrimaryColor = _PrimaryColor.rgb * m.r;
+half3 SecondaryColor = _SecondaryColor.rgb * m.g;
+half3 TertiaryColor = _TertiaryColor.rgb * m.b;
+
+// Get non-masked color (part of albedo texture where we ignore mask)
+half3 NonMasked = c.rgb * (1 - m.r - m.g - m.b);
+
+half3 maskColors = PrimaryColor + SecondaryColor + TertiaryColor;
+
+// Multiply maskColors with albedo and add non-masked
+surfaceData.albedo = NonMasked + c.rgb * maskColors;
+```
+
+Screenshot and gameplay video from prototype:
+{% include lightbox.html src="resume/dmple-screenshot1.png" title="Dmple Game Screenshot" %}
+{% include lightbox.html src="resume/dmple-gameplay.gif" title="Dmple Gameplay" %}
+
+## Smart Contract Engineer (Freelance)
+**IOTAplus AG** - [iota-plus.com](https://iota-plus.com/)<br />*2023-01 - 2023-01*
+
+Wrote several smart contracts for the Sphere project ([sphere-hub.io](https://sphere-hub.io/))
+* NFT Marketplace
+* NFT Collection (ERC1155)
+* Two ERC20s
+* Crowdsale contract
+* Vesting contract with multiple beneficiaries
+
+I plan to post the code for these contracts soon.
+
+Also I have written other smart contracts which are more complex for my personal project which are viewable on Github: [github.com/rohinnz/Block-Miner-Smart-Contracts](https://github.com/rohinnz/Block-Miner-Smart-Contracts)
 
 {% include lightbox.html src="resume/sphere-project-avatar1.png" title="Sphere Project Avatar" %}
-
-## Smart Contract Engineer / Game Developer (Part-time)
-**Personal Project**<br />*2021-12 - present*
-
-I am building a Web3 puzzle game where players can mint their own puzzles as NFTs. Players will be able to win prizes for solving on-chain puzzles and earn royalties when their NFTs are used to construct larger puzzles.
-
-I have solved many challenges, like preventing front-running to submitted solutions and finding a feasible solution to an expensive on-chain puzzle solver.
-
-The blockchain project (Solidity, TypeScript, Hardhat) project is viewable on Github: [github.com/rohinnz/Block-Miner-Smart-Contracts](https://github.com/rohinnz/Block-Miner-Smart-Contracts)
-
-Also, I have solid Solidity experience (including Yul assembly) and have written two posts on Solidity security and gas optimization:
-* [How to Prevent Reentrancy Attacks in Solidity]({% link _posts/2023-01-15-Reentrancy-Attacks.md %})
-* [Optimizing Smart Contract Gas Costs]({% link _posts/2023-01-20-Solidity-Gas-Optimization.md %})
-
-And I am currently learning [Rust](https://www.rust-lang.org/) and [Substrate](https://substrate.io/).
-
-The game client is being built in Unity using the [ChainSafe web3.unity SDK](https://gaming.chainsafe.io/). I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet.
-
-{% include lightbox.html src="resume/block-miner-level-editor.png" title="Block Miner - Level Editor" %}
 
 ## Senior Unity Engineer
 **Myria** - [myria.com](https://myria.com/)<br />*2022-03 - 2022-12*
@@ -235,6 +267,20 @@ This was my first programming job. I built two standalone Windows apps and a plu
 ![VDA Project](/assets/resume/vda-project.png)
 
 [//]: # todo: Find less blurry picture
+
+---
+# Current Personal Projects
+## Web3 Puzzle Game
+
+I am currently building a Web3 puzzle game where players can mint their own puzzles as NFTs. Players will be able to win prizes for solving on-chain puzzles and earn royalties when their NFTs are used to construct larger puzzles.
+
+I have solved many challenges, like preventing front-running to submitted solutions and finding a feasible solution to an expensive on-chain puzzle solver.
+
+The blockchain project (Solidity, TypeScript, Hardhat) project is viewable on Github: [github.com/rohinnz/Block-Miner-Smart-Contracts](https://github.com/rohinnz/Block-Miner-Smart-Contracts)
+
+The game client is being built in Unity using the [ChainSafe web3.unity SDK](https://gaming.chainsafe.io/). I currently have a WebGL prototype that can interact with the smart contracts on the Goerli testnet.
+
+{% include lightbox.html src="resume/block-miner-level-editor.png" title="Block Miner - Level Editor" %}
 
 ---
 # Game Jams
