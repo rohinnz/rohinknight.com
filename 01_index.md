@@ -12,7 +12,7 @@ I've worked for [PlaySide Studios](https://www.playsidestudios.com/), [PikPok](h
 
 Most recent titles I worked on are 
 * [Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/)
-* [Shattered (Meta Quest 3 Mixed Reality)](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/)
+* [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Meta Quest 3 Mixed Reality)
 * Unannounced AAA Unreal Game
 
 For more details please see my [portfolio]({% link 04_portfolio.md %}).

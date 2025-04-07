@@ -21,17 +21,14 @@ redirect_from:
 
 PlaySide Studios is Australia’s largest game developer. They are a publicly listed company and have published well over 70 titles across various platforms, including mobile, PC, console, VR, and AR. They develop their own IP and also take on work-for-hire contracts.
 
-At PlaySide I worked on three titles:
-* [Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/) (C++, proprietary engine)
-* [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/)(Unity - Quest 3 Mixed Reality)
-* Unannounced AAA Game (Unreal Engine)
+Some of my contributions over the years at Playside:
 
-Civilization VII VR Achievements
-* Created multiple prototypes for table edge blending and helped implement the best solution.
+[Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/) (C++, proprietary engine)
+* Prototyped and Implemented an edge blending effect for elements going out the edges of the in-game table,
 * Created a rotating museum display for busts.
-* Updated museum banners to correctly use the assigned team colours.
+* Updated museum banners to apply team colours dynamically.
 
-Shattered Achievements
+[Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Unity - Quest 3 Mixed Reality)
 * Created a fake real time lighting effect for torchlight and a flickering effect for other light sources.
 * Built a 4-way LUT blending system for adjusting room lighting (also created a 2D slider component).
 * Created a 3D LUT system with blending.
@@ -39,8 +36,8 @@ Shattered Achievements
 * Developed fresnel-based object highlighting effect
 * Modified a VAT shatter shader to ensure glass shards fall to the ground regardless of height while maintaining clean animation.
 
-Achievements for AAA Unreal Game
-* Developed a lantern feature involved shaders, stencil stencil masking and Niagara emitters.
+Unannounced AAA Game (Unreal Engine)
+* Developed a lantern feature involved shaders, stencil masking and Niagara emitters.
 * Wrote Blueprint function class for working with INI files.
 * Built a Collision Wall Spline Tool that selects the most optimal size for each collision box along a spline, accounting for height constraints and necessary gaps. This required writing two custom PCG nodes in C++ and creating one custom PCG Blueprint node.
 * Built several PCG graphs for foliage placement.
