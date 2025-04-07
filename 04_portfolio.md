@@ -80,22 +80,6 @@ Screenshot and gameplay video from prototype:
 {% include lightbox.html src="resume/dmple-screenshot1.png" title="Dmple Game Screenshot" %}
 {% include lightbox.html src="resume/dmple-gameplay.gif" title="Dmple Gameplay" %}
 
-## Smart Contract Engineer (Freelance)
-**IOTAplus AG** - [iota-plus.com](https://iota-plus.com/)<br />*2023-01 - 2023-01*
-
-Wrote several smart contracts for the Sphere project ([sphere-hub.io](https://sphere-hub.io/))
-* NFT Marketplace
-* NFT Collection (ERC1155)
-* Two ERC20s
-* Crowdsale contract
-* Vesting contract with multiple beneficiaries
-
-I plan to post the code for these contracts soon.
-
-Also I have written other smart contracts which are more complex for my personal project which are viewable on Github: [github.com/rohinnz/Block-Miner-Smart-Contracts](https://github.com/rohinnz/Block-Miner-Smart-Contracts)
-
-{% include lightbox.html src="resume/sphere-project-avatar1.png" title="Sphere Project Avatar" %}
-
 ## Senior Unity Engineer
 **Myria** - [myria.com](https://myria.com/)<br />*2022-03 - 2022-12*
 
@@ -131,9 +115,7 @@ Titles I worked on:
 * [Into The Dead 2](https://pikpok.com/games/into-the-dead-2/)
 * [Zombie Rescue Squad](https://pikpok.com/news/zombie-rescue-squad-launches-in-the-usa-on-new-snap-games-platform/)
 * [Greedy Cats](https://pikpok.com/games/greedy-cats/)
-* (a game still in soft launch).
-
-[//]: # [My Cat Club](https://play.google.com/store/apps/details?id=com.pikpok.cats.play)
+* [My Cat Club](https://pikpok.com/games/my-cat-club/)
 
 Unity Achievements:
 * Built a UI scroll grid pooling system that allowed scrolling of thousands of items. It had an auto-layout feature with items able to span multiple rows/ columns. This package is now being used in all their recent games.
