@@ -6,15 +6,18 @@ layout: home
 permalink: /
 ---
 
-Hello, my name is Rohin Knight and I am a seasoned programmer with 15 years of commercial experience across various domains. Throughout my career, I have developed games, mobile apps and websites while collaborating with some talented individuals from startups to large corporations.
+Hello, my name is Rohin Knight. I'm a Software Engineer / Technical Artist with over 10 years of experience in Game Development. I have a proven record of delivering quality work and solving complex problems.
 
-I currently specialize in Game Development (including Tech Art) and Blockchain Programming. I thrive on taking on new challenges and finding creative solutions to complex problems. My track record speaks for itself, consistently delivering high-quality work and being able to deliver on time and under pressure.
+I've worked for [PlaySide Studios](https://www.playsidestudios.com/), [PikPok](https://pikpok.com/) and [Myria](https://myria.com/).
 
-For more information about my experience and skills, please check out my [portfolio]({% link 04_portfolio.md %}).
+Most recent titles I worked on are 
+* [Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/)
+* [Shattered (Meta Quest 3 Mixed Reality)](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/)
+* Unannounced AAA Unreal Game
 
-## Other Interests
+For more details please see my [portfolio]({% link 04_portfolio.md %}).
 
-Outside of coding, my other interests are studying Mandarin, travel, hiking and snowboarding. My favourite ski field is [Cardrona](https://www.cardrona.com/).
+Outside of game development, my interests are studying Mandarin, hiking and snowboarding.
 <br />
 
 {% include lightbox.html src="rohin-snowboard.jpg" title="Rohin Knight at Cardrona Ski Field" %}

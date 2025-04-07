@@ -15,14 +15,38 @@ redirect_from:
 # Work Experience
 
 ## Senior Technical Artist
-**Playside Studios**<br />*2023-02 - Present*
+**Playside Studios**<br />*2023-02 - 2025-04*
 
-{% include lightbox.html src="resume/playside-logo.png" title="Dmple Gameplay" %}
+{% include lightbox.html src="resume/playside-logo.png" title="PlaySide Logo" %}
 
-I'm currently working on a AAA game. I've just done some shader/graphics programming in Unity for a POC and I'm now doing shader/graphics programming work in a C++ game engine.
+PlaySide Studios is Australia’s largest game developer. They are a publicly listed company and have published well over 70 titles across various platforms, including mobile, PC, console, VR, and AR. They develop their own IP and also take on work-for-hire contracts.
 
-Will add more info later once the game is announced.
+At PlaySide I worked on three titles:
+* [Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/) (C++, proprietary engine)
+* [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/)(Unity - Quest 3 Mixed Reality)
+* Unannounced AAA Game (Unreal Engine)
 
+Civilization VII VR Achievements
+* Created multiple prototypes for table edge blending and helped implement the best solution.
+* Created a rotating museum display for busts.
+* Updated museum banners to correctly use the assigned team colours.
+
+Shattered Achievements
+* Created a fake real time lighting effect for torchlight and a flickering effect for other light sources.
+* Built a 4-way LUT blending system for adjusting room lighting (also created a 2D slider component).
+* Created a 3D LUT system with blending.
+* Developed a solution for cracks forming on glass, which then transitioned into shards falling out.
+* Developed fresnel-based object highlighting effect
+* Modified a VAT shatter shader to ensure glass shards fall to the ground regardless of height while maintaining clean animation.
+
+Achievements for AAA Unreal Game
+* Developed a lantern feature involved shaders, stencil stencil masking and Niagara emitters.
+* Wrote Blueprint function class for working with INI files.
+* Built a Collision Wall Spline Tool that selects the most optimal size for each collision box along a spline, accounting for height constraints and necessary gaps. This required writing two custom PCG nodes in C++ and creating one custom PCG Blueprint node.
+* Built several PCG graphs for foliage placement.
+
+{% include youtube.html id="Xknx_zxD4uE" title="Sid Meier's Civilization VII - VR" %}
+{% include youtube.html id="X-Wnsrw9Cf8" title="Shattered" %}
 
 ## Senior Software Developer (Part-time)
 **Dmple Studio**<br />*2023-02 - 2023-04*
@@ -95,7 +119,7 @@ Some of my achievements include
 
 NOTE: Not latest so missing some features i.e. town water shader.
 
-{% include youtube.html id="tI81xqHRJBw" title="Game: Math Invaders" %}
+{% include youtube.html id="E84TiQwjAZM" title="Game: Math Invaders" %}
 
 ## Lead Technical Artist
 **PikPok** - [pikpok.com](https://pikpok.com/)<br />*2018-06 - 2022-03*
