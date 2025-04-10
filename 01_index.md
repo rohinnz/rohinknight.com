@@ -6,11 +6,13 @@ layout: home
 permalink: /
 ---
 
-Hello, my name is Rohin Knight. I'm a Game Programmer / Technical Artist with over 10 years of experience in Game Development. I have a proven record of delivering quality work and solving complex problems.
+Hello, my name is Rohin Knight. I'm a Software Engineer / Technical Artist with over a decade in games and 6 years in web/mobile app development.
+
+I have a strong track record of delivering high-quality work and solving complex challenges. I'm passionate about finding solutions and helping teams succeed.
 
 I've worked for [PlaySide Studios](https://www.playsidestudios.com/), [PikPok](https://pikpok.com/) and [Myria](https://myria.com/).
 
-Most recent titles I worked on are 
+The most recent titles I worked on are
 * [Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/)
 * [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Meta Quest 3 Mixed Reality)
 * Unannounced AAA Unreal Game

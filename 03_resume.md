@@ -1,5 +1,5 @@
 ---
-redirect_to: /RohinKnight_GameProgrammer.pdf
+redirect_to: /RohinKnight.pdf
 title: Resume
 permalink: /resume
 ---
