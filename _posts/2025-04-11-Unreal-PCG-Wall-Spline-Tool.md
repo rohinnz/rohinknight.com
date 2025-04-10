@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Unreal PCG Wall Spline Tool"
-categories: techart
+categories: tooling
 ---
 
 I built this tool to allow level designers to place hidden wall collisions.
