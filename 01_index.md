@@ -6,7 +6,7 @@ layout: home
 permalink: /
 ---
 
-Hello, my name is Rohin Knight. I'm a Software Engineer / Technical Artist with over 10 years of experience in Game Development. I have a proven record of delivering quality work and solving complex problems.
+Hello, my name is Rohin Knight. I'm a Game Programmer / Technical Artist with over 10 years of experience in Game Development. I have a proven record of delivering quality work and solving complex problems.
 
 I've worked for [PlaySide Studios](https://www.playsidestudios.com/), [PikPok](https://pikpok.com/) and [Myria](https://myria.com/).
 
