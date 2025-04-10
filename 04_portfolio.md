@@ -6,7 +6,7 @@ redirect_from:
   - /resume/detailed
 ---
 
-* Resume: {% include resume.html %}
+* Resume: [RohinKnight_GameProgrammer.pdf]({{ '/RohinKnight_GameProgrammer.pdf' | relative_url }})
 * LinkedIn: [linkedin.com/in/rohinknight](https://www.linkedin.com/in/rohinknight/)
 * Github: [github.com/rohinnz](https://github.com/rohinnz)
 * Art Station: [artstation.com/rohin](https://www.artstation.com/rohin)
