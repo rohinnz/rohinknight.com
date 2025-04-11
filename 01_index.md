@@ -17,7 +17,7 @@ The most recent titles I worked on are
 * [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Meta Quest 3 Mixed Reality)
 * Unannounced AAA Unreal Game
 
-For more details please see my [portfolio]({% link 04_portfolio.md %}).
+For more details please see my [portfolio]({% link 04_portfolio.md %})
 
 Outside of game development, my interests are studying Mandarin, hiking and snowboarding.
 <br />
