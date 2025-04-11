@@ -29,8 +29,9 @@ github_username: rohinnz
 linkedin_username: rohinknight
 resume_pdf: RohinKnight.pdf
 
-#keep_files:
-#  - assets/videos/PCG-Wall-Spline-Tool.mp4
+# Large files that don't need updating - this is just to speed up deployment
+keep_files:
+  - assets/videos
 
 # Google Analytics
 google_analytics: G-9MPSFQ7R9F
