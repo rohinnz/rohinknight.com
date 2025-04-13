@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Automatic Tool Distribution for Maya"
-date:   2023-01-10 17:00:00 +1300
 categories: techart
 ---
 

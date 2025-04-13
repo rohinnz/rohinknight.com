@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Optimizing Smart Contract Gas Costs"
-date: 2023-01-20 21:00:00 +1300
 categories: solidity
 ---
 

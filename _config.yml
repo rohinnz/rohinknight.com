@@ -83,3 +83,8 @@ defaults:
       path:           "04_resume.md"
     values:
       sitemap:         false
+  - scope:
+      path:           ""
+      type:           "posts"
+    values:
+      permalink:      /posts/:title/

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Refactoring legacy C++ into modern C++11"
-date:   2021-08-16 17:00:00 +1300
 categories: cpp
 ---
 I was once given a task to refactor some legacy C++ code into modern C++11.
