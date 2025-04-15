@@ -23,13 +23,19 @@ For the torch effect, I implemented lighting calculations in our custom shader a
 The lighting logic was based on the "Light Casters" section from the LearnOpenGL website. I used this as a reference to correctly implement the spotlight-style falloff and intensity:
 [https://learnopengl.com/Lighting/Light-casters](https://learnopengl.com/Lighting/Light-casters)
 
+{% include lightbox.html src="shattered/learnopengl-diagram.png" title="Learn OpenGL Diagram" %}
+
 I created and applied a custom cookie texture to the torch to achieve a more realistic, torch-like lighting effect. The cookie mask was based on a blurred image of a glass crack.
 
 {% include lightbox.html src="shattered/original-torch-cookie.jpg" title="Torchlight cookie" %}
 
-Here’s an early prototype of the torch in action:
+Here’s an early prototype of the torch in action. It looks nearly identical to real-time lighting—the only giveaway is the lack of shadows cast by the torchlight.
 
-{% include lightbox.html src="shattered/shattered-torch-prototype.gif" title="Shattered Torch Prototype" %}
+<video muted="true" loop="true" playsinline="true" autoplay="true" style="width: 100%; height: auto;">
+  <source src="{{ site.baseurl }}/assets/videos/shattered-torch-prototype.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<br />
 
 # Flicker / Diming Effect 🕯️
 
