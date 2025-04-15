@@ -4,24 +4,37 @@ title:  "Shattered Fake Realtime Lighting"
 categories: techart
 ---
 
-Shattered is a Meta Mixed Reality game and one of the most important parts of the gameplay is the flashlight.
+In the game [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Unity - Quest 3 Mixed Reality) there is no real-time lighting. This is due to hardware limitations.
 
-Due to hardware limitations, we could not use real-time lighting in the game.
+Instead some neat tricks are used for stationary lights turning on/off and a flashlight you can shine anywhere!
 
-So in order to create a torchlight effect, I had to implement some fake lighting. It looks almost the same as real-time lighting except for the lack of real-time shadows.
+# Lightmap Switching 💡 
 
-On the OpenGL website there is a great article on how to do the lighting calculations for the spotlight.
+{% include lightbox.html src="shattered/lightmap-switching.gif" title="Lightmap Switching" %}
 
+For stationary lights, lightmaps are pre-baked for all possible combinations of a level. This approach is highly performant and works great with automated tooling.
+
+While I wasn’t responsible for implementing the lightmap switching system, I did help out with some of the configuration and bug fixing.
+
+# Torch 🔦
+
+For the torch effect, I implemented lighting calculations in our custom shader and passed the torch’s position and direction as parameters.
+
+The lighting logic was based on the "Light Casters" section from the LearnOpenGL website. I used this as a reference to correctly implement the spotlight-style falloff and intensity:
 [https://learnopengl.com/Lighting/Light-casters](https://learnopengl.com/Lighting/Light-casters)
 
-I also created and applied a cookie to the torch to give the lighting more of a torchlike look.
+I created and applied a custom cookie texture to the torch to achieve a more realistic, torch-like lighting effect. The cookie mask was based on a blurred image of a glass crack.
 
-Here is an early prototype of the torch:
+{% include lightbox.html src="shattered/original-torch-cookie.jpg" title="Torchlight cookie" %}
+
+Here’s an early prototype of the torch in action:
 
 {% include lightbox.html src="shattered/shattered-torch-prototype.gif" title="Shattered Torch Prototype" %}
 
-I also added dynamic light luminance so we could add a flicker/diming type effect to other light sources.
+# Flicker / Diming Effect 🕯️
 
-Here is an early prototype showing this feature:
+I also added dynamic light luminance control so we could create flickering or dimming effects on various light sources.
+
+Here’s an early prototype of that effect:
 
 {% include lightbox.html src="shattered/shattered-dynamic-luminance.gif" title="Shattered Dynamic Luminance" %}
