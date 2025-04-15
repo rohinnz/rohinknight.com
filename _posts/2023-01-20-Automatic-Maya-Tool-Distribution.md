@@ -12,7 +12,7 @@ Then each time Maya was launched, this script would download and run a startup m
 
 I also wrote a script on our CI server so the zip archieve would be rebuilt every time an update was made to the main git branch.
 
-{% include lightbox.html src="NZGDC-techart-tools-update.jpg" title="Tech Art Tools Update Diagram" %}
+{% include lightbox.html src="mayatools/PikPokToolsDistribution.png" title="Tech Art Tools Update Diagram" %}
 
 
 ```python
