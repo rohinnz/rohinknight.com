@@ -56,6 +56,13 @@ In order to keep both game clients in sync, I seeded the random number generatio
 
 I also coded a custom URP shader for the characters to allow for different color schemes. For more info please see my post on [Shader Color Swapping](/posts/Shader-Color-Swapping/).
 
+## Smart Contract Engineer (Freelance)
+**IOTAplus AG**
+
+{% include lightbox.html src="resume/sphere-project-avatar1.png" title="Sphere Project Logo" %}
+
+I did some freelance work for IOTAplus AG where I wrote several smart contracts: NFT Marketplace, NFT Collection (ERC1155), two ERC20s, a Crowdsale and a vesting contract with multiple beneficiaries. [https://github.com/rohinnz/SphereHubSmartContracts](https://github.com/rohinnz/SphereHubSmartContracts).
+
 ## Senior Unity Engineer
 **Myria** - [myria.com](https://myria.com/)<br />*2022-03 - 2022-12*
 
