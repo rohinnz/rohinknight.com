@@ -4,7 +4,7 @@ title:  "Animated Wall Cracks"
 categories: techart
 ---
 
-During early prototyping of [Shattered] (https://www.meta.com/en-gb/experiences/shattered/5816339365118691/)(Unity - Quest 3 Mixed Reality), we experimented with placing cracks on the player’s wall that would open up with water gushing in, eventually filling the player’s room.
+During early prototyping of [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Unity - Quest 3 Mixed Reality), we experimented with placing cracks on the player’s wall that would open up with water gushing in, eventually filling the player’s room.
 
 I created some cracks in Blender and used Shape Keys to animate them opening. In the image below, the front-facing polygons are set to blue and the back-facing polygons to red.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Shattered Fake Realtime Lighting"
+title:  "Fake Realtime Lighting"
 categories: techart
 ---
 
