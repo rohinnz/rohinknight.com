@@ -1,5 +1,5 @@
 ---
-redirect_to: /RohinKnight-Programming-TechArt.pdf
+redirect_to: /RohinKnight-TechnicalArtist.pdf
 title: Resume
 permalink: /resume
 ---

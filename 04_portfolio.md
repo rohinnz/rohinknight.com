@@ -24,7 +24,7 @@ PlaySide Studios is Australia’s largest game developer. They are a publicly li
 Some of my contributions over the years at Playside:
 
 [Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/) (C++, proprietary engine)
-* (Still awaiting confirmation on what I can include for Civilization VII - VR)
+* (Still awaiting confirmation on what details I can discuss for Civilization VII - VR)
 
 [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Unity - Quest 3 Mixed Reality)
 * Created a fake real time lighting effect for torchlight and a flickering effect for other light sources.
@@ -57,7 +57,7 @@ In order to keep both game clients in sync, I seeded the random number generatio
 I also coded a custom URP shader for the characters to allow for different color schemes. For more info please see my post on [Shader Color Swapping](/posts/Shader-Color-Swapping/).
 
 ## Smart Contract Engineer (Freelance)
-**IOTAplus AG**
+**IOTAplus AG**<br />**
 
 {% include lightbox.html src="resume/sphere-project-avatar1.png" title="Sphere Project Logo" %}
 
