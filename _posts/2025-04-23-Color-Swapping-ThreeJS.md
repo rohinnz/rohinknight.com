@@ -4,7 +4,7 @@ title:  "Color Swapping Technique in Three.JS"
 categories: techart
 ---
 
-**This post is under construction***
+**This post is under construction**
 
 Example of color swapping shader technique using Three.JS. Click the buttons to change the character outfit and hair style.
 
