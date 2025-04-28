@@ -4,9 +4,7 @@ title:  "Unreal PCG Wall Spline Tool"
 categories: techart
 ---
 
-**This post currently has placeholder images and videos. I'm just waiting on the green light from PlaySide to include the actual media I'd like to share.**
-
-{% include lightbox.html src="placeholder/image-placeholder.png" title="SPCG Wall Spline Tool" %}
+{% include lightbox.html src="unreal/PCGWallSplineTool.png" title="PCG Wall Spline Tool" %}
 
 I built this tool to allow level designers to place hidden wall collisions.
 
@@ -16,4 +14,7 @@ There is also a feature for adjusting the height in sections of a wall or cuttin
 
 To build this tool I had to write two custom C++ PCG nodes and build one Blueprint PCG node.
 
-{% include lightbox.html src="placeholder/video-placeholder.jpg" title="Unreal PCG Spline Tool" %}
+<video muted="true" loop="true" playsinline="true" autoplay="true" style="width: 100%; height: auto;">
+  <source src="{{ site.baseurl }}/assets/videos/PCG-Wall-Spline-Tool.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
