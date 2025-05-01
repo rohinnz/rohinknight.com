@@ -21,7 +21,7 @@ Recent titles include:
 * **[Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/)** (Meta Quest 3 Mixed Reality)
 * **Unannounced AAA Unreal Game**
 
-You can find more details in my [portfolio]({% link 04_portfolio.md %}).
+**You can find more details in my [portfolio]({% link 04_portfolio.md %}).**
 
 ## Other Interests
 Outside of game development, my interests are studying Mandarin, hiking and snowboarding.
