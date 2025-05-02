@@ -8,9 +8,9 @@ redirect_from:
 
 
 <!-- * Resume: [{{ site.resume_pdf }}]({{ site.resume_pdf | relative_url }}) -->
-* LinkedIn: [linkedin.com/in/rohinknight](https://www.linkedin.com/in/rohinknight/)
-* Github: [github.com/rohinnz](https://github.com/rohinnz)
-* Art Station: [artstation.com/rohin](https://www.artstation.com/rohin)
+* LinkedIn: [linkedin.com/in/rohinknight](https://2ly.link/26nLB)
+* Github: [github.com/rohinnz](https://2ly.link/26nL9)
+* Art Station: [artstation.com/rohin](https://2ly.link/26nL7)
 
 ---
 # Work Experience
