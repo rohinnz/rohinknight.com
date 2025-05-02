@@ -4,13 +4,11 @@ title:  "Shattered Mirror Cracks"
 categories: techart
 ---
 
-**This post currently has placeholder images and videos. I'm just waiting on the green light from PlaySide to include the actual media I'd like to share.**
-
 At PlaySide I worked on [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Unity - Quest 3 Mixed Reality)
 
 One of my tasks was to make cracks grow on a mirror, eventually transitioning into shards falling out.
 
-{% include lightbox.html src="placeholder/video-placeholder.jpg" title="Shattered Mirror Cracks" %}
+{% include youtube.html id="GrBdbaj5uL8" title="Shattered Mirror Cracks" %}
 
 Depending on the situation, the crack needed to either:
 * Split the mirror in half first, then grow outward
@@ -44,10 +42,10 @@ The result: both the cracks now grows in a much more natural way, and no disconn
 
 <div style="display: flex; gap: 10px; align-items: flex-start;">
   <div style="flex: 1;">
-    {% include lightbox.html src="placeholder/video-placeholder.jpg" title="Shattered Mirror Normal Crack" %}
+    {% include lightbox.html src="shattered/normal-crack.gif" title="Shattered Mirror Normal Crack" %}
   </div>
   <div style="flex: 1;">
-    {% include lightbox.html src="placeholder/video-placeholder.jpg" title="Shattered Mirror Split Crack" %}
+    {% include lightbox.html src="shattered/split-crack.gif" title="Shattered Mirror Split Crack" %}
   </div>
 </div>
 

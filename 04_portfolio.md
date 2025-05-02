@@ -6,7 +6,8 @@ redirect_from:
   - /resume/detailed
 ---
 
-* Resume: [{{ site.resume_pdf }}]({{ site.resume_pdf | relative_url }})
+
+<!-- * Resume: [{{ site.resume_pdf }}]({{ site.resume_pdf | relative_url }}) -->
 * LinkedIn: [linkedin.com/in/rohinknight](https://www.linkedin.com/in/rohinknight/)
 * Github: [github.com/rohinnz](https://github.com/rohinnz)
 * Art Station: [artstation.com/rohin](https://www.artstation.com/rohin)
@@ -23,21 +24,21 @@ PlaySide Studios is Australia’s largest game developer. They are a publicly li
 
 Some of my contributions over the years at Playside:
 
-[Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/) (C++, proprietary engine)
+**[Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/)** (C++, proprietary engine)
 * (Still awaiting confirmation on what details I can discuss for Civilization VII - VR)
 
-[Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Unity - Quest 3 Mixed Reality)
-* Created a fake real time lighting effect for torchlight and a flickering effect for other light sources.
+**[Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/)** (Unity - Quest 3 Mixed Reality)
+* Created a fake real time lighting effect for torchlight and a flickering effect for other light sources. See post on [Shattered Fake Realtime Lighting](/posts/Shattered-Fake-Realtime-Lighting/).
 * Built a 4-way LUT blending system for adjusting room lighting (also created a 2D slider component).
 * Created a 3D LUT system with blending.
-* Developed a solution for cracks forming on glass, which then transitioned into shards falling out.
+* Developed a solution for cracks forming on glass, which then transitioned into shards falling out. See post on [Shattered Mirror Cracks](/posts/Shattered-Mirror-Cracks/).
 * Developed fresnel-based object highlighting effect
 * Modified a VAT shatter shader to ensure glass shards fall to the ground regardless of height while maintaining clean animation.
 
-Unannounced AAA Game (Unreal Engine)
+**Unannounced AAA Game (Unreal Engine)**
 * Developed a lantern feature involved shaders, stencil masking and Niagara emitters.
 * Wrote Blueprint function class for working with INI files.
-* Built a Collision Wall Spline Tool that selects the most optimal size for each collision box along a spline, accounting for height constraints and necessary gaps. This required writing two custom PCG nodes in C++ and creating one custom PCG Blueprint node.
+* Built a Collision Wall Spline Tool that selects the most optimal size for each collision box along a spline, accounting for height constraints and necessary gaps. This required writing two custom PCG nodes in C++ and creating one custom PCG Blueprint node. See post on [Unreal PCG Wall Spline Tool](/posts/Unreal-PCG-Wall-Spline-Tool/).
 * Built several PCG graphs for foliage placement.
 
 {% include youtube.html id="Xknx_zxD4uE" title="Sid Meier's Civilization VII - VR" %}
@@ -57,7 +58,7 @@ In order to keep both game clients in sync, I seeded the random number generatio
 I also coded a custom URP shader for the characters to allow for different color schemes. For more info please see my post on [Shader Color Swapping](/posts/Shader-Color-Swapping/).
 
 ## Smart Contract Engineer (Freelance)
-**IOTAplus AG**<br />**
+**IOTAplus AG**<br />
 
 {% include lightbox.html src="resume/sphere-project-avatar1.png" title="Sphere Project Logo" %}
 

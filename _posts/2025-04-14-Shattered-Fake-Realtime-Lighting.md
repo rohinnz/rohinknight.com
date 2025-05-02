@@ -4,15 +4,13 @@ title:  "Fake Real-time Lighting"
 categories: techart
 ---
 
-**This post currently has placeholder images and videos. I'm just waiting on the green light from PlaySide to include the actual media I'd like to share.**
-
 In the game [Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/) (Unity - Quest 3 Mixed Reality) there is no real-time lighting. This is due to hardware limitations.
 
 Instead some neat tricks are used for stationary lights turning on/off and a flashlight you can shine anywhere!
 
 # Lightmap Switching 💡 
 
-{% include lightbox.html src="placeholder/video-placeholder.jpg" title="Lightmap Switching" %}
+{% include lightbox.html src="shattered/lightmap-switching.gif" title="Lightmap Switching" %}
 
 For stationary lights, lightmaps are pre-baked for all possible combinations of a level. This approach is highly performant and works great with automated tooling.
 
@@ -29,12 +27,14 @@ The lighting logic was based on the "Light Casters" section from the LearnOpenGL
 
 I created and applied a custom cookie texture to the torch to achieve a more realistic, torch-like lighting effect. The cookie mask was based on a blurred image of a glass crack.
 
-{% include lightbox.html src="placeholder/image-placeholder.png" title="Torchlight cookie" %}
+{% include lightbox.html src="shattered/original-torch-cookie.jpg" title="Torchlight cookie" %}
 
 Here’s an early prototype of the torch in action. It looks nearly identical to real-time lighting—the only giveaway is the lack of shadows cast by the torchlight.
 
-{% include lightbox.html src="placeholder/video-placeholder.jpg" title="Shattered Torch Prototype" %}
-
+<video muted="true" loop="true" playsinline="true" autoplay="true" style="width: 100%; height: auto;">
+  <source src="{{ site.baseurl }}/assets/videos/shattered-torch-prototype.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 <br />
 
 # Flicker / Diming Effect 🕯️
@@ -43,4 +43,4 @@ I also added dynamic light luminance control so we could create flickering or di
 
 Here’s an early prototype of that effect:
 
-{% include lightbox.html src="placeholder/video-placeholder.jpg" title="Shattered Dynamic Luminance" %}
+{% include lightbox.html src="shattered/shattered-dynamic-luminance.gif" title="Shattered Dynamic Luminance" %}

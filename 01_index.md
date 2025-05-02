@@ -14,7 +14,7 @@ I’ve contributed to projects built in Unity (C#, C++, native plugins), Unreal 
 
 My background also includes technical art scripting (Photoshop, Maya, Blender), Web3 development (Solidity, Hardhat), and mobile app engineering (iOS/Android).
 
-I've worked with studios including [PlaySide Studios](https://www.playsidestudios.com/), [PikPok](https://pikpok.com/) and [Myria](https://myria.com/).
+I've worked with studios including **[PlaySide Studios](https://www.playsidestudios.com/)**, **[PikPok](https://pikpok.com/)** and **[Myria](https://myria.com/)**.
 
 Recent titles include:
 * **[Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/)**
