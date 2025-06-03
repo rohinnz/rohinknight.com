@@ -25,7 +25,9 @@ PlaySide Studios is Australia’s largest game developer. They are a publicly li
 Some of my contributions over the years at Playside:
 
 **[Civilization VII - VR](https://www.meta.com/en-gb/experiences/sid-meiers-civilization-vii-vr/5781689118524197/)** (C++, proprietary engine)
-* (Still awaiting confirmation on what details I can discuss for Civilization VII - VR)
+* Prototyped and Implemented an edge blending effect for elements going out the edges of the in-game table.
+* Created a rotating museum display for busts.
+* Updated museum banners to apply team colours dynamically.
 
 **[Shattered](https://www.meta.com/en-gb/experiences/shattered/5816339365118691/)** (Unity - Quest 3 Mixed Reality)
 * Created a fake real time lighting effect for torchlight and a flickering effect for other light sources. See post on [Shattered Fake Realtime Lighting](/posts/Shattered-Fake-Realtime-Lighting/).
