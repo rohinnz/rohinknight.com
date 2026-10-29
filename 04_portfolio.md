@@ -16,6 +16,24 @@ redirect_from:
 # Work Experience
 
 ## Senior Technical Artist
+**Beast Burst Entertainment**<br />*2025-05 - 2026-10*
+
+
+{% include lightbox.html src="resume/scars-of-honor-banner.jpg" title="Scars of Honor Banner" %}
+
+**Beast Burst Entertainment** is an independent game studio developing and publishing **[Scars of Honor](https://scarsofhonor.com)**, an upcoming free-to-play fantasy MMORPG.
+
+Some of my contributions to this game include:
+
+* Helped implement new character tech, including runtime baking using compute shaders.
+* Researched and implemented character cloth sim, including solution for combining extra bones with character skeleton and correctly handling shared bones.
+* Developed tools to improve development workflows, including a Character Bake Benchmarker, Model Equipment Tester, Terrain Mesh Hole Cutter, asset and scene validator, World Analyzer, and a Blender tool for copying bone weights.
+* Researched collider optimisation and streaming colliders for Terrain Nature Renderer.
+* Improved existing tools and systems, including the Water Manager spline tool, Nature Instances scatterer, and imposter baker and shader.
+
+{% include youtube.html id="htM5EjCKKRU" title="Scars of Honor" %}
+
+## Senior Technical Artist
 **Playside Studios**<br />*2023-02 - 2025-04*
 
 {% include lightbox.html src="resume/playside-logo.png" title="PlaySide Logo" %}
